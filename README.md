@@ -39,7 +39,7 @@
 <br>
 
 <div align="center">
-    <a href="https://github.com/Charmve/"><img src="./image.jpg"></a>
+    <a href="https://github.com/Charmve/"><img src="image.jpg"></a>
 </div>
 <br>
 
