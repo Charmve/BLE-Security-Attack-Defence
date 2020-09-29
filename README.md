@@ -36,9 +36,14 @@
 		</tr>
 	</table>
 	</tbody>
+<br>
 
+<div align="center">
+    <a href="https://github.com/Charmve/"><img src="./image.jpg"></a>
+</div>
+<br>
 
-0 BlueBorne - A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
+0. BlueBorne - A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 https://www.youtube.com/watch?v=WWQTlogqF1I
 
 Hack.lu 2016 BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil
