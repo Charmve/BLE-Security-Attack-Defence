@@ -5,8 +5,10 @@
 
 0 BlueBorne - A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 https://www.youtube.com/watch?v=WWQTlogqF1I
+
 Hack.lu 2016 BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil
 https://www.youtube.com/watch?v=G08fh5Sa7TU
+
 1. MASHaBLE: Mobile Applications of Secret Handshakes Over Bluetooth LE
 https://www.youtube.com/watch?v=s79CG2Os0Nc
 2. Automatic Discovery of Evasion Vulnerabilities Using Targeted Protocol Fuzzing 
