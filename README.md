@@ -2,7 +2,6 @@
 
 
 <h2>Bluetooth LE Vulnerability &nbsp<a href="https://charmve.blog.csdn.net/" target="_blank">[Google Scholar]</a></h2>
-	<hr/>
 	<table>
 	<tbody>
 		<tr>
