@@ -46,7 +46,7 @@
 0. BlueBorne - A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 https://www.youtube.com/watch?v=WWQTlogqF1I
 
-Hack.lu 2016 BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil
+   Hack.lu 2016 BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil
 https://www.youtube.com/watch?v=G08fh5Sa7TU
 
 1. MASHaBLE: Mobile Applications of Secret Handshakes Over Bluetooth LE
@@ -86,7 +86,7 @@ https://www.youtube.com/watch?v=gCQ3iSy6R-U
 16. Hopping into Enterprise Networks from Thin Air with BLEEDINGBIT
 https://www.youtube.com/watch?v=ASod9cRtZf4
 
-漏洞预警 | BleedingBit蓝牙芯片远程代码执行漏洞 
+   漏洞预警 | BleedingBit蓝牙芯片远程代码执行漏洞 
 https://www.anquanke.com/post/id/163307  https://www.secpulse.com/archives/78841.html
 
 17. BA03 Breaking the Teeth of Bluetooth Padlocks Adrian Crenshaw
