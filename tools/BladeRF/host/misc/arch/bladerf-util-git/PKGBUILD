@@ -1,0 +1,73 @@
+# Maintainer: Guido Paliot <guido@paliot.de>
+pkgname=bladerf-util-git
+pkgver=df0f495
+pkgrel=1
+pkgdesc="Utils, libraries and prebuilt firmware for the Nuand bladeRF"
+arch=('x86_64')
+url="https://github.com/Nuand/bladeRF"
+license=('GPL')
+depends=('libtecla' 'libusb>=1.0.12')
+makedepends=('git')
+optdepends=(
+	'bladerf:	Linux kernel driver backend for bladeRF'
+)
+conflicts=('bladerf-util')
+provides=('bladerf-util')
+backup=(etc/bladerf.cfg)
+source=('bladeRF::git+https://github.com/Nuand/bladeRF#branch=master'
+        'https://www.nuand.com/fx3/bladeRF_fw_v2.0.0.img'
+        'https://www.nuand.com/fpga/v0.7.1/hostedx40.rbf'
+        'https://www.nuand.com/fpga/v0.7.1/hostedx115.rbf'
+)
+sha1sums=(
+        'SKIP'
+        '25dd40565e14051b3a3195fa6784ee5cb2a8e8a2'
+        '07c491710c9fab0e9b952fb2adc59e62f6693d50'
+        'bf1464df78b2c18f0d711108550e30692b536ea4'
+)
+
+
+_gitname=bladeRF
+
+pkgver() {
+    cd $_gitname
+      # Use the tag of the last commit
+        git describe --always | sed 's|-|.|g'
+      }
+
+build() {
+  cd "$srcdir"
+  msg "Connecting to GIT server...."
+
+  if [[ -d "$_gitname" ]]; then
+    cd "$_gitname" && git pull origin
+    msg "The local files are updated."
+  else
+    git clone --recursive "$_gitroot" "$_gitname"
+  fi
+
+  msg "GIT checkout done or server timeout"
+  msg "Starting build..."
+
+  rm -rf "$srcdir/$_gitname-build"
+  git clone --recursive "$srcdir/$_gitname" "$srcdir/$_gitname-build"
+
+  cd "$srcdir/$_gitname-build/host"
+
+  cmake -DCMAKE_INSTALL_PREFIX=/usr -DINSTALL_UDEV_RULES=ON -DENABLE_BACKEND_LINUX_DRIVER=OFF -DENABLE_BACKEND_LIBUSB=ON -DLIBTECLA_INCLUDE_DIR=/usr/include -DCMAKE_BUILD_TYPE=Release .
+
+  make
+}
+
+package() {
+
+  cd "$srcdir/$_gitname-build/host"
+  make DESTDIR=$pkgdir install
+  mkdir -p $pkgdir/usr/share/Nuand/bladeRF/fpga
+  mkdir $pkgdir/usr/share/Nuand/bladeRF/firmware
+  cp $srcdir/bladeRF_fw_v2.0.0.img $pkgdir/usr/share/Nuand/bladeRF/firmware/bladeRF_fw.img
+  cp $srcdir/hostedx40.rbf $pkgdir/usr/share/Nuand/bladeRF/fpga/
+  cp $srcdir/hostedx115.rbf $pkgdir/usr/share/Nuand/bladeRF/fpga/
+  cp $srcdir/$_gitname-build/COPYING $pkgdir/usr/share/Nuand/bladeRF/LICENSE
+}
+

@@ -1,0 +1,341 @@
+================================================================================
+bladeRF-cli Change Log Summary
+
+For more detailed information, please see the git change log and issue tracker
+hosted on GitHub: https://github.com/Nuand/bladeRF
+================================================================================
+
+v1.7.1 (2018-12-21)
+--------------------------------
+ * tx.c: fix memory leak in CSV-to-SC16Q11 conversion (fixes #694)
+ * cmd.c: cleanup command definitions, code formatting
+ * main.c: remove vestigial printfs in open_device()
+ * Updated documentation for adding new commands
+ * calibrate.c, flash_*.c: updates for libbladeRF v2.2.0
+
+v1.7.0 (2018-10-30)
+--------------------------------
+ * Add libedit support (#591)
+ * Show RF routing in 'print hardware' on bladerf1 devices (#608)
+ * Display manufacturer and product strings in 'probe', 'info' (#624)
+ * Ensure device is initialized after deferred open (#612)
+ * Use "degrees C" on temperature instead of the degrees symbol
+ * Add flash size to 'info' command (#634)
+ * Handle already-open devices on 'probe' (#648)
+ * Add support for "J51-1" and "Miniexp-1" as trigger signals (#656)
+ * Display FPGA configuration source on 'version' (#662)
+ * Print supported ranges for sample rate, bandwidth, frequency
+ * Fix missing return in error case (#666)
+
+v1.6.1 (2018-08-24)
+--------------------------------
+This version depends on libbladeRF v2.0.1 or later.
+
+ * "set loopback" help dialog aware of board type (#566)
+ * host: libbladeRF: Rename clock select option
+ * host: bladeRF-cli: Add 200 ms delay before probing PLL lock status (#587)
+ * host: add nanosleep shim for Windows (#589)
+
+v1.6.0 (2018-08-13)
+--------------------------------
+This version depends on libbladeRF v2.0.0 or later.
+
+ * Initial public release with bladeRF 2.0 ("Micro") support
+ * Adds support for MIMO RX and TX using "channel=" parameter on rx/tx config
+ * Various code quality fixups
+
+v1.5.2 (2018-03-26)
+--------------------------------
+
+This version is part of development series of changes, not an official release.
+
+This version depends upon libbladeRF v1.9.1 or later.
+
+  * Support for bladeRF Micro
+  * No longer initializes the bladeRF before loading a new FPGA image, to avoid
+    potential catch-22 problems
+
+v1.5.1 (2017-12-07)
+--------------------------------
+This version depends upon libbladeRF v1.8.1 or later.
+
+  * Minor fix-ups
+
+v1.5.0 (2017-07-01)
+--------------------------------
+This version depends upon libbladeRF v1.8.0 or later.
+
+  * Added support for Automatic Gain Control
+
+v1.4.0 (2016-01-05)
+--------------------------------
+This version depends upon libbladeRF v1.7.0 or later.
+
+  * Added XB-300 support
+  * Added synchronization trigger support
+  * Added set `smb_mode` and print `smb_mode` support
+     - This supersedes the `mimo` command, which is now marked *deprecated*.
+  * Fixed CLI exit on FW/FPGA version mismatch
+  * Fixed build on big-endian machines.
+
+v1.3.1 (2016-01-05)
+--------------------------------
+This version depends upon libbladeRF v1.5.1 or later.
+
+  * Addressed warnings that occur with GCC -Os flag.
+
+v1.3.0 (2015-12-31)
+--------------------------------
+This version depends upon libbladeRF v1.5.0 or later.
+
+ * Marked 'set frequency <value>' deprecated.
+    - Use 'set frequency rx <value>' or 'set frequency tx <value>'
+ * Updated DC calibration routines for improved accuracy and to avoid lockups
+ * Added print/set support for VCTCXO tamer mode
+ * Added fw_log command
+ * Added ability to set SMB master frequency
+ * Added print/set support FPGA RX FIFO input mux (rx_mux)
+ * Fixed regression in set xb_gpio[_dir] register-level access
+ * Fixed issues with validating and applying rational sample rates
+ * Output formatting cleanup
+
+v1.2.1 (2015-07-16)
+--------------------------------
+This version depends upon libbladeRF v1.4.1 or later.
+
+ * Fixed issue where transmission could be truncated due to TX RFFE being
+   turned off before sample buffers reach the transceiver.
+
+ * Fixed errors and inconsistencies in interactive command help text.
+
+v1.2.0 (2015-06-30)
+--------------------------------
+This version depends upon libbladeRF v1.4.0 or later.
+
+ * Added support for semicolon command separators
+ * Added 'print trimdac' support. (Requires FPGA v0.3.2)
+ * Fixed libbladeRF return value translation bugs
+
+v1.1.2 (2015-02-28)
+--------------------------------
+This version depends upon libbladeRF v1.2.1 or later.
+
+ * Fixed and improved help text and manual page generation.The doc generation
+   scripts should now be compatible with formats used by pandoc 1.12.x and
+   1.13.x.
+
+v1.1.1 (2015-01-31)
+--------------------------------
+This version depends upon libbladeRF v1.2.0 or later.
+
+ * Updated LMS bit definitions for 'peek/poke lms' commands to include bits
+   previously marked "spare."
+
+ * Fixed a documentation build issue caused by help2man usage.
+
+
+v1.1.0 (2014-12-23)
+--------------------------------
+This version depends upon libbladeRF v1.1.0 or later.
+
+ * The -p/--probe command line option now causes bladeRF-cli to return a
+    non-zero return value if no devices are found. This is intended to allow
+    shell scripts to easily check if devices are (not) present.
+
+ * The 'probe' command now takes an optional 'strict' argument to specify that
+    the lack of any identified devices should be treated as an error, which
+    would cause scripts or a list of '-e' command line arguments to terminate
+    immediately.
+
+ * Before entering interactive mode, script parsing, or '-e' option execution,
+    bladeRF-cli now searches for devices in bootloader modes and prompts the
+    user to run 'help recover' for instructions on loading firmware onto these
+    devices. This replaces the [INFO] log message previously printed by
+    lower-level libbladeRF code.
+
+v1.0.0 (2014-11-29)
+--------------------------------
+This version depends upon libbladeRF v1.0.0 or later.
+
+ * Major version number incremented.
+    * This denotes that no further reverse-incompatible command changes shall be
+      introduced without a change to the major version number.
+
+
+v0.12.0 (2014-10-30)
+--------------------------------
+This version depends upon libbladeRF v0.17.0 or later.
+
+ * Migrated rx/tx commands to libbladeRF's synchronous interface
+ * Introduced support of '#' line comments
+ * Changed argument order of xb command to be more intuitive
+ * Cleaned up help text and addressed discrepancies between help text and
+    associated commands
+ * Misc. minor bug fixes.
+
+v0.11.1 (2014-07-24)
+--------------------------------
+This version depends upon libbladeRF v0.16.2 or later.
+
+ * Added missing FW loopback mode option
+ * Fixed help text and doc generation
+ * Return value corrections and parameter handling fixes
+ * Misc. typo and help-text touch-ups
+ * Minor Windows build touch-ups
+
+
+
+v0.11.0 (2014-07-04)
+--------------------------------
+This version depends upon libbladeRF v0.16.0 or later.
+
+ * Added experimental DC calibration table generation
+    - Changed usage of 'calibrate' command
+    - Move 'correct' functionality into 'calibrate' command
+ * Added '-e <command>' support
+ * Added "pretty print" of LMS registers
+ * Fixed '<rx|tx> wait' hang-ups
+ * Differentiate between "file not found" and file I/O errors
+ * Addressed a crash in the 'tx' command
+ * Fixed handling of unterminated quotes
+
+
+v0.10.8 (2014-05-17)
+--------------------------------
+ * Updates to corresponding to libbladeRF API changes
+ * Removed device reset after flashing firmware
+ * Added interactive help text command added to allow man page to be generated
+   without needing a script to scrape text.
+ * Preliminary support for XB-200
+
+
+v0.10.7 (2014-03-18)
+--------------------------------
+ * Added libc version check to determine if -lrt is required
+ * Windows: Fixed reading binary files in for transmission
+ * Serial # is now printed in`flash_image`output
+ * Help text fixes and improvements
+ * Added additional parameter range checks
+ * Minor source tree reorganization
+
+
+v0.10.6 (2014-03-07)
+--------------------------------
+ * Removed bladerf_close() call after bladerf_device_reset()
+    - This function call would yield an attempt to close a stale device handle,
+      causing BSoDs in Windows.
+
+v0.10.5 (2014-02-27)
+--------------------------------
+ * Error message corrections
+ * Fixes to RXVGA1-related textual output
+
+v0.10.4 (2014-02-05)
+--------------------------------
+ * Loopback support added to print/set commands
+ * Print "first available" instead of "(null") when no device is specified via
+   the -d option.
+ * Help text updates
+
+v0.10.3 (2014-01-26)
+--------------------------------
+ * Fix for buffer corruption in TX stream (tx command)
+ * Added rx/tx timeout configuration
+ * Fixed tab-completion for "file=<tab>"
+ * Clamp out-of-range values from CSV files
+
+v0.10.2 (2014-01-18)
+--------------------------------
+ * Supporting rational sample rates via the libbladeRF rational sample rate i/f
+ * Fixes in the 'correct' command, pertaining to the libbladeRF 0.12.0
+   changes.
+ * RX/TX command error message fixes
+
+v0.10.1 (2014-01-09)
+--------------------------------
+ * Fixed a race condition in starting up RX/TX worker threads
+ * Addressed "Peripheral access failure" error messages
+ * Added FPGA state check in calibration command
+
+v0.10.0 (2013-12-01)
+--------------------------------
+ * Added 'correct' command for manual DC offset an IQ balance adjustments
+ * Fixed misc. defects detected via Coverity scans
+
+v0.9.0 (2013-11-28)
+--------------------------------
+ * Added command for initializing, backing up, and storing the contents of
+   SPI flash
+
+v0.8.0 (2013-11-28)
+--------------------------------
+ * Added rx/tx 'wait' operation
+ * Added 'run' command to run scripts from the CLI, or from within other scripts
+ * Added 'echo' command for debugging purposes
+ * Added support for quoted arguments
+ * Removed extraneous error messages
+ * Removed exit-with-failure if no device is connected
+
+v0.7.1 (2013-11-08)
+--------------------------------
+ * Fixed incorrect write size check for 'rx' with 'format=bin'
+ * Fixed swap of --version and --lib-version
+ * Added GPLv2 headers to source files
+ * Windows: Fixed issue where binary files were opened in text mode
+ * Fixed misc. defects detected via Coverity scans
+
+v0.7.0 (2013-10-21)
+--------------------------------
+ * Fixed incorrect file write size
+ * Fixed incorrect return values and potential memory leaks
+ * Windows compatibility fixes
+
+v0.6.0 (2013-10-14)
+--------------------------------
+ * 'rx' and 'tx' commands updated to use asynchronous data streaming interface
+ * 'mimo' command added
+ * 'info' command added
+
+v0.5.0 (2013-10-05)
+--------------------------------
+ * Removed device info from 'version' command, with the intent of
+   moving it to a separate command (which wasn't introduced until v0.6.0).
+
+v0.4.2 (2013-10-04)
+--------------------------------
+ * Cleaned up 'version' command output
+ * Fixed warning that broke Windows build (with /WX)
+
+v0.4.1 (2013-10-03)
+--------------------------------
+ * Updated version-related code to account for libbladeRF's addition
+   of the bladerf_version structure
+ * Added simple fgets-based interactive mode support, as an alternative
+   for systems without libtecla support (e.g., Windows)
+ * Windows build/compatibility fixes
+ * Added 'erase' command to allow regions of SPI flash to be erased
+
+v0.4.0 (2013-09-02)
+--------------------------------
+ * Added -v option to control libbladeRF verbosity
+ * Added differentiation between a failed device probe and the
+   lack of any attached devices
+ * Removed data endianess in rx/tx commands. The data is stored
+   in the host's endianness.
+ * Changed default CSV->binary filename to be not Unix-specific
+ * Fixed return value issues that caused the CLI to exit on non-fatal errors
+
+v0.3.1 (2013-08-28)
+----------------------------------
+ * Added filename expansion support
+    - Converts ~/some/path to /home/user/some/path on *nix-based systems
+ * Fixed OSX linking issue
+ * Fixed USB bus/address swap in 'probe' output
+ * Fixed crash in parsing CSV data
+ * Added more descriptive error messages
+
+v0.3.0 (2013-08-22)
+----------------------------------
+ * First functional version
+    - Earlier versions were generally only useful for tests and debugging
+      the preliminary version of libbladeRF.

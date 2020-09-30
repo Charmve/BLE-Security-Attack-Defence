@@ -1,0 +1,39 @@
+Ubertooth 2018-12-R1 Release Notes
+==============================
+The Ubertooth host utilities in this release require libbtbb-2018-12-R1
+(https://github.com/greatscottgadgets/libbtbb/releases/tag/2018-12-R1) or
+greater.
+
+Changes
+-------
+
+**Uberducky triggering** - Uberducky is a new project built on Ubertooth
+hardware that acts like a USB Rubber Ducky. You can use a second
+Ubertooth to trigger it to inject keystrokes using the `ubertooth-ducky`
+command. See the [Uberducky repo](https://github.com/mikeryan/uberducky)
+for more info.
+
+**Spectrum Analyzer UI improvements** - Thank you Steven Haussmann and
+Andrew Browning!
+
+**Bug fixes** - Improvements to `ubertooth-btle`'s faux slave mode.
+
+**USB API version** - As with the previous release, we are using USB API
+versioning to improve the experience of failures due to mismatched
+firmware and host code. As of this release, the USB API has been bumped
+to 1.06. If the Ubertooth tools complain that your firmware is out of
+date, please update your firmware. Updating firmware is simple and
+reliable, please follow the instructions on the wiki
+https://github.com/greatscottgadgets/ubertooth/wiki/Firmware
+A release archive with precompiled firmware is available from
+https://github.com/greatscottgadgets/ubertooth/releases/download/2018-12-R1/ubertooth-2018-12-R1.tar.xz
+
+Support
+-------
+Build instructions are available from the wiki
+https://github.com/greatscottgadgets/ubertooth/wiki/Build-Guide
+
+As always, support is available via the Ubertooth-general mailing list or IRC.
+Issues can also be reported via the GitHub issue tracker and pull requests are
+always welcome.
+

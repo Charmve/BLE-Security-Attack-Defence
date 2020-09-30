@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPCB (2011-06-30 BZR 3033)-stable date = Sun 23 Oct 2011 11:09:03 PM MDT
+
+BeginCmp
+TimeStamp = /4CDDA7E7;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = 0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDB3EB;
+Reference = C2;
+ValeurCmp = 10μF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDB263;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = 0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDA608;
+Reference = D1;
+ValeurCmp = TXLED;
+IdModule  = 0603D;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDA621;
+Reference = D2;
+ValeurCmp = RXLED;
+IdModule  = 0603D;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDCB6A;
+Reference = J1;
+ValeurCmp = USB-MICRO-B;
+IdModule  = GSG-USB-MICROB-FCI-10103594;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDAFDF;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = POGOPIN-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EA4E0D6;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDB0FC;
+Reference = R1;
+ValeurCmp = DNP;
+IdModule  = 0603bridged;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDB10B;
+Reference = R2;
+ValeurCmp = DNP;
+IdModule  = 0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDA629;
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = 0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDA631;
+Reference = R4;
+ValeurCmp = 330;
+IdModule  = 0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EA4EC49;
+Reference = R5;
+ValeurCmp = DNP;
+IdModule  = 0603bridged;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EA4EC65;
+Reference = R6;
+ValeurCmp = DNP;
+IdModule  = 0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CDDA5D6;
+Reference = U1;
+ValeurCmp = FT232RL;
+IdModule  = SSOP-28;
+EndCmp
+
+EndListe

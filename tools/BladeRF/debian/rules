@@ -1,0 +1,47 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# vim:noet
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+# Test to see if we're a snapshot build by looking for the word
+# "SNAPSHOT" in our version.  If so, infer our current version and inject
+# it into the build process.
+DEB_VERSION_STRING ?= $(shell dpkg-parsechangelog | grep ^Version: | cut -d' ' -f2-)
+
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
+ifneq (,$(findstring SNAPSHOT,$(DEB_VERSION_STRING)))
+	# Format is like: 0.9.0+1SNAPSHOT20131027041813-gitedc468d~saucy
+	DVS_SPLIT := $(subst ~, ,$(subst -git, ,$(DEB_VERSION_STRING)))
+	# Format is like: 0.9.0+1SNAPSHOT20131027041813 edc468d saucy
+	DEB_VERSION_GITHASH := $(word 2,$(DVS_SPLIT))
+	DEB_VERSION_SERIES := $(word 3,$(DVS_SPLIT))
+	# Produce a version suffix like: git-edc468d-ppasaucy
+	VERSION_INFO_OVERRIDE := git-$(DEB_VERSION_GITHASH)-ppa$(DEB_VERSION_SERIES)
+endif
+
+# For tagged PPA release builds, we have a slightly different format...
+ifneq (,$(findstring 1ppa,$(DEB_VERSION_STRING)))
+	# Format is like: 2014.09-rc1-1ppa1~saucy
+	DVS_SPLIT := $(subst ~, ,$(subst -1ppa, ,$(DEB_VERSION_STRING)))
+	# Format is like: 2014.09-rc1 1 saucy
+	DEB_VERSION_TAG := $(word 1,$(DVS_SPLIT))
+	DEB_VERSION_BUILD := $(word 2,$(DVS_SPLIT))
+	DEB_VERSION_SERIES := $(word 3,$(DVS_SPLIT))
+	# Produce a version suffix like: 2014.09-rc1-1-ppasaucy
+	VERSION_INFO_OVERRIDE := $(DEB_VERSION_TAG)-$(DEB_VERSION_BUILD)-ppa$(DEB_VERSION_SERIES)
+endif
+
+override_dh_auto_configure:
+	dh_auto_configure -- 	-DVERSION_INFO_OVERRIDE:STRING=$(VERSION_INFO_OVERRIDE) \
+							-DCMAKE_INSTALL_LIBDIR="lib/${DEB_HOST_MULTIARCH}" \
+							-DCMAKE_INSTALL_DOCDIR="share/doc/libbladerf-doc" \
+							-DENABLE_HOST_BUILD=ON \
+							-DENABLE_FX3_BUILD=OFF \
+							-DBUILD_DOCUMENTATION=ON \
+							-DUDEV_RULES_PATH=/lib/udev/rules.d
+
+%:
+	dh $@ 

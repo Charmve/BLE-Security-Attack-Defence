@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0  Date: Fri 26 Aug 2011 05:17:14 PM MDT
+#
+$CMP BC856
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP IP4221CZ6
+D Dual USB 2.0 integrated quad with ESD protection
+$ENDCMP
+#
+#End Doc Library

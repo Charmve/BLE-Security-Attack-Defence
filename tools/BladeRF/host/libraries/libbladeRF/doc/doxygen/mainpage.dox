@@ -1,0 +1,121 @@
+/**
+@mainpage
+
+<h1>Introduction</h1>
+
+This library supports the <a class="el" href="https://www.nuand.com">Nuand bladeRF and bladeRF Micro</a>
+USB 3.0 Software Defined Radio (SDR). It is intended to support developers looking to:
+<ul>
+    <li>
+    Build both generic SDR software and domain-specific applications atop of the bladeRF.
+    </li>
+    <li>
+    Evaluate and experiment with the hardware, using routines that provide
+    low-level access to device settings and registers.
+    </li>
+</ul>
+
+The libbladeRF source code is hosted on our <a class="el" href="https://github.com/Nuand/bladeRF">GitHub project page</a>,
+and the latest release of this documentation may be found <a class="el" href="https://www.nuand.com/libbladeRF-doc">here</a>.
+
+A few avenues for support are available, including the <a class="el" href="https://www.nuand.com/forums">Nuand forums</a>,
+the \#bladeRF IRC channel on <a class="el" href="https://freenode.net">Freenode</a>, or
+<a class="el" href="#" onclick="location.href='mai'+'lto:'+'bla'+'de'+'RF@'+'Nu'+'and'+'.c'+'om'; return false;">email</a>.
+The forums are generally preferred over email because they allow a publicly
+accessible knowledge base of common questions and answers to be developed.
+
+Bugs, both in libbladeRF and this documentation, may be reported on the
+<a class="el" href="https://www.github.com/Nuand/bladeRF/issues">GitHub issue tracker</a>
+
+@attention libbladeRF 2.0 introduces breaking changes to the parameter lists
+           for bladerf_get_frequency(), bladerf_stream(), and
+           bladerf_sync_config().
+@attention Existing code using these functions @b must be updated to be
+           compatible with this version. See the
+           \ref relnotes_2_0_api_freq_uint64 and
+           \ref relnotes_2_0_api_stream sections of the \ref relnotes_2_0
+           document for guidance.
+
+<hr>
+
+<h1>The libbladeRF API</h1>
+libbladeRF provides the ability to:
+<ul>
+    <li>
+    Query and connect to bladeRF devices connected to a system
+    </li>
+    <li>
+    Configure device properties, such as:
+        <ul>
+            <li>Frequency tuning</li>
+            <li>Bandwidth</li>
+            <li>Sample rate</li>
+            <li>Gain stages</li>
+            <li>Expansion board settings</li>
+            <li>Synchronization trigger signals</li>
+            <li>SMB clock port mode (for MIMO applications on bladeRF1)</li>
+        </ul>
+    </li>
+    <li>
+    Read device attributes, including:
+        <ul>
+            <li>Serial number and calibration values</li>
+        <li>Firmware and FPGA version numbers</li>
+        </ul>
+    </li>
+    <li>
+    Steam sample data through either a simple synchronous interface, or a
+    callback-based asynchronous interface.
+    </li>
+    <li>
+    Access and manipulate low-level parameters and device registers.
+    </li>
+    <li>
+    Load FPGA images
+    </li>
+    <li>
+    Update FX3 firmware
+    </li>
+    <li>
+    Recover from FX3 bootloader mode
+    </li>
+
+</ul>
+
+The <a class="el" href="modules.html">API Sections</a> page presents a complete list of of the libbladeRF API sections,
+including the aforementioned items.
+
+The \ref relnotes_2_0 page summarizes the new features and changes in
+the second major release of libbladeRF.
+
+The following pages provide examples and more detailed usage information:
+<ul>
+    <li>
+    <a class="el" href="boilerplate.html">Device configuration boilerplate</a>
+    </li>
+    <li>
+    RX and TX via the Synchronous Interface
+    </li>
+    <ul>
+        <li>
+        <a class="el" href="sync_no_meta.html">Basic usage without metadata</a>
+        </li>
+        <li>
+        <a class="el" href="sync_rx_meta.html">RX with metadata</a>
+        </li>
+        <li>
+        <a class="el" href="sync_tx_meta_bursts.html">TX with metadata</a>
+        </li>
+    </ul>
+    <li>
+    <a class="el" href="tuning.html">Frequency tuning (bladeRF1)</a>
+    </li>
+    <li>
+        <a class="el" href="envvars.html">Environment variables</a>
+    </li>
+    <li>
+        <a class="el" href="configfile.html">Configuration file</a>
+    </li>
+</ul>
+
+*/

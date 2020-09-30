@@ -1,0 +1,56 @@
+# host and firmware
+*.o
+*.so.*
+*.pyc
+host/build/*
+
+# firmware build output
+*.bin
+*.d
+*.dfu
+*.elf
+*.hex
+*.lss
+*.lst
+*.map
+*.srec
+*.sym
+
+# host utilities
+ubertooth-btle
+ubertooth-debug
+ubertooth-dump
+ubertooth-follow
+ubertooth-rx
+ubertooth-scan
+ubertooth-specan
+ubertooth-util
+
+host/python/*/build/*
+
+# kismet plugins
+ubertooth.so
+ubertooth_ui.so
+
+# r8c stuff
+r8c2l.h
+r8c2l.inc
+
+# web output
+web/output/*
+web/tmp/*
+
+# Source code indexing files.
+tags
+tags.log
+TAGS
+TAGS.log
+cscope*
+ID
+
+# Editor junk
+*.swp
+*.sublime-project
+*.sublime-workspace
+.vscode
+

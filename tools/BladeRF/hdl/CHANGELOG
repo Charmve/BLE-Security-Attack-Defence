@@ -1,0 +1,307 @@
+================================================================================
+bladeRF HDL Change Log Summary
+
+For more detailed information, please see the git change log and issue tracker
+hosted on GitHub: https://github.com/nuand/bladeRF
+================================================================================
+
+--------------------------------
+v0.11.1 (2020-09-12)
+--------------------------------
+
+ This version includes a few bug fixes that mostly affect meta mode.
+
+ Fixes:
+
+ * hdl: meta_time_go clear if in WAIT state for longer than a cycle
+ * hdl: avoid consecutive data_valid on adc_stream
+
+
+--------------------------------
+v0.11.0 (2019-05-05)
+--------------------------------
+
+ This version improves buffering on the FPGA, and extends quicktune's controls
+ over the XB gpio register.
+
+ Fixes:
+
+ * hdl: buffer sizes and checks
+ * hdl: misc fixes
+
+ Features:
+
+ * bladerf: quicktune controls XB gpio register
+
+--------------------------------
+v0.10.2 (2018-12-17)
+--------------------------------
+
+ This version improves the FPGA-based tuning support on the bladeRF2, adding
+ quick tuning, a standby state (initialized but idle), and defining user space
+ for API commands.
+
+ Fixes:
+
+ * bladerf2: retune2: fix RF path selection in adi_rfspdt_select
+ * bladerf2: FPGA tuning: invalidate RFIC frequency on quick tune
+ * bladerf2: FPGA tuning: Fix GAIN command on TX channels
+ * bladerf2: FPGA tuning: Fix TX sample rate being wrong
+ * bladerf2: FPGA tuning: Fix GAINMODE command
+ * bladerf2: FPGA tuning: Fix implosion when state change OFF->STANDBY
+ * build: fix SignalTap variable name
+ * build: fix patch ordering in fpga/ip/adi
+
+ Features:
+
+ * bladerf2: FPGA tuning: add FASTLOCK command
+ * bladerf2: FPGA tuning: add standby (warm idle) state
+ * bladerf2: FPGA tuning: define user-defined command space
+
+--------------------------------
+v0.10.1 (2018-12-06)
+--------------------------------
+ This version is part of development series of changes, not an official release.
+
+ This version adds FPGA-based tuning for the bladeRF2. This tuning mode has the
+ following advantages over host-based tuning:
+
+ * Faster command processing: the Nios II processor on the FPGA handles the
+   RFIC control directly, instead of relaying SPI commands between the host
+   and RFIC. This improves turnaround time slightly.
+
+ * State preservation: the device itself maintains the RFIC state, so closing
+   and re-opening the device no longer requires reinitialization. In practice,
+   this is about a 7.5x speedup when doing a "warm" open of an
+   already-initialized device.
+
+ * Headless operation: more and improved host-based functionalities are
+   available in headless mode
+
+ Features:
+
+ * bladerf2: add FPGA-based tuning
+ * bladerf2: increase Nios II RAM footprint from 32 kB to 128 kB
+
+--------------------------------
+v0.10.0 (2018-11-26)
+--------------------------------
+ This version is part of development series of changes, not an official release.
+
+ This version adds quick tuning on bladeRF2 devices.
+
+ Fixes:
+
+ * build: add -S option to specify fitter seed
+ * nios: Fix Eclipse project, update docs
+ * build: add device and device family to qsys scripts
+ * build: fix escaping on Windows
+ * fpga_common: check return val in lms_set_frequency (#691)
+
+ Features:
+
+ * bladerf2: add fastlock functions, increase Nios RAM from 16 to 32 kB
+ * bladerf2: implement pkt_retune2 packet format for quick tuning
+
+--------------------------------
+v0.9.0 (2018-10-26)
+--------------------------------
+ * bladeRF: hosted: fix typo in toggle_led1
+ * bladeRF: move AGC SPI driver into 80 MHz clock domain (fixes #640) (#642)
+ * bladeRF: timing improvements (fixes #395) (#652)
+ * build: Cygwin compatibility (#660)
+ * bladeRF: adsb: adjust build and FIFO type to match bladeRF-micro impl
+ * bladeRF-micro: adsb: implement support for ADS-B core on bladeRF micro
+ * fx3_gpif: clean up metadata flags field in GPIF
+ * fifo_writer: add metadata flags for miniexp{1,2} IO pin status
+ * nios: clarify README.md
+ * bladeRF-micro: add false path constraint for pwr_status (#681)
+ * bladeRF-micro: weak pull-up on fx3_uart_rxd (fixes #679) (#683)
+
+--------------------------------
+v0.8.0 (2018-09-05)
+--------------------------------
+ * bladeRF: Fix nios_gpio assignment overlap for AGC_EN
+ * bladeRF: Fix bug in AGC band selection
+
+--------------------------------
+v0.7.3 (2018-08-07)
+--------------------------------
+ * Initial release with bladeRF Micro support
+ * bladeRF Micro: Update pin-outs and constraints for Rev1.1+ PCBs
+ * bladeRF Micro: Latch TX data going to the RFIC's DAC
+
+--------------------------------
+v0.7.2 (2018-03-26)
+--------------------------------
+ This version is part of development series of changes, not an official release.
+
+ * Redesign build system to support multiple product models
+ * Added support for the bladeRF Micro
+ * Refactoring, bug fixes, and other misc. improvements
+
+--------------------------------
+v0.7.1 (2017-12-07)
+--------------------------------
+ * Minor fix-ups
+
+--------------------------------
+v0.7.0 (2017-07-02)
+--------------------------------
+ * Added support for the Automatic Gain Control
+
+--------------------------------
+v0.6.0 (2015-05-25)
+--------------------------------
+ * Added TRX synchronization trigger functionality via J71-4.
+
+--------------------------------
+v0.5.0 (2015-11-23)
+--------------------------------
+ * Added support for 1 PPS and 10 MHz input to tame VCTCXO
+ * Added FIFO between TX and RX for digital loopback mode for clock
+   synchronization and additional sample buffering.
+
+--------------------------------
+v0.4.1 (2015-09-01)
+--------------------------------
+ * Fixed bug in XB GPIO masked writes introduced in v0.4.0
+
+--------------------------------
+v0.4.0 (2015-08-27)
+--------------------------------
+ * Added support for multi-write of TX and RX NINT/NFRAC registers
+    - LMS6002D PLL registers are written atomically to allow for
+      slightly cleaner retuning.
+
+--------------------------------
+v0.3.5 (2015-08-25)
+--------------------------------
+ * Build and simulation fixes
+
+--------------------------------
+v0.3.4 (2015-07-24)
+--------------------------------
+ * Fixed a bug where multiple TX NOW bursts would accumulate samples
+   in the RX FIFO and was causing a slip in metadata headers versus samples.
+ * Modified sample FIFOs to have under/overflow checking
+ * Register FIFO reader output
+ * Addressed some warnings about latches.
+ * Build fixes for atsc_tx image 
+
+--------------------------------
+v0.3.3 (2015-06-30)
+--------------------------------
+ * Addressed timing constraint issue by reducing LMS SPI clock rate.
+ * Renamed SPI controller module
+
+--------------------------------
+v0.3.2 (2015-06-23)
+--------------------------------
+ * Fixed VCTCXO readback
+
+--------------------------------
+v0.3.1 (2015-06-17)
+--------------------------------
+ * Added faster, custom SPI block for LMS6 communication.
+    - This custom block removes large gaps of time between CSn and the clocking
+      of data, as well as gaps of time between bytes.
+
+v0.3.0 (2015-06-17)
+--------------------------------
+ This version is part of development series of changes, not an official release.
+
+ * Added support for the following packet formats.
+    - pkt_8x8
+    - pkt_8x16
+    - pkt_8x32
+    - pkt_8x64
+    - pkt_32x32
+
+   For more information about these packet formats, see:
+    bladeRF/hdl/fpga/ip/altera/nios_system/software/bladeRF_nios/README.md
+
+v0.2.0 (2015-06-17)
+--------------------------------
+ This version is part of development series of changes, not an official release.
+
+ * Build updated for Quartus II 15.0
+    - Earlier Quartus versions are not compatible.
+
+ * Redesigned control/configuration program running on NIOS II
+    - This introduces support for different packet formats for
+      NIOS II <-> host communication.
+    - Readability and performance improvements
+
+ * The time tamers have been separated and now have programmable interrupts.
+
+ * Added tuning support:
+    - The LMS6 VCOCAP search can now be performed in the NIOS,
+      cutting out overhead incurred when performing all register accesses
+      via the host.
+    - A "Quick tune" option allows the LMS6 to be tuned using previously
+      determined settings, instead of running the full tuning algorithm.
+    - Introduced scheduled retune support
+
+
+v0.1.2 (2014-10-22)
+--------------------------------
+ * Fixed issues with TX_NOW and dropped messages. This fixes issues
+   #334 and #335.
+
+v0.1.1 (2014-10-22)
+--------------------------------
+ * Fixed timing errors that caused failures in SPI communication with the
+   LMS6002D. This addresses the LMS calbration failure assocaited with issue
+   #269.
+
+v0.1.0 (2014-10-21)
+--------------------------------
+ * Backwards-compatible features introduced:
+    - Added option to divide sample counter by 2.
+    - Added "TX_NOW"
+
+ * Fixes:
+    - Addessed data/timestamp slipping
+    - Fixed readback of current timestamp value
+    - Send zero samples TX module to mitigate effect of default output power
+      from the LMS after intialization.
+
+
+v0.0.6 (2014-07-20)
+--------------------------------
+ * Fixed FPGA correction for gain/phase
+
+v0.0.5 (2014-06-21)
+--------------------------------
+ * Added expansion board support for XB-200
+
+
+v0.0.4 (2014-05-07)
+--------------------------------
+ * Added metadata timestamp support
+    - Added RX/TX metadata FIFOs
+ * Added FPGA digital loopback
+
+
+v0.0.3 (2014-02-01)
+--------------------------------
+ * Tweaked constraints for FX3 interface drive strength
+ * Add 32-bit counter mode for RX performance testing
+
+
+v0.0.2 (2014-01-14)
+--------------------------------
+ * Tweaked constraints for the FX3 interface
+ * Fixed SPI/UART signal contention issue
+ * Fixed phase range for IQ correction block
+
+
+v0.0.1 (2013-12-28)
+--------------------------------
+ * Updated to use Quartus 13.1 tools
+    - Renamed OpenCores I2C Qsys core to not conflict
+ * Introduced faster UART bridge (4Mbps versus 115.2kbps)
+ * Added IQ correction block
+ * Added FPGA version numbering
+ * Made FX3 GPIF FSM more maintainable

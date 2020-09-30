@@ -1,0 +1,48 @@
+#!/bin/sh -e
+
+UPSTREAM='https://www.nuand.com/fx3/bladeRF_fw_v2.3.2.img'
+CHECKSUM='c823ea5aa2c25c26bbaf4ab395ac559d'
+DATAFILE='/usr/share/Nuand/bladeRF/bladeRF_fw.img'
+DESCRIPT='firmware'
+MYNAMEIS='bladerf-firmware-fx3'
+
+checkfile () {
+	[ -z "$1" ] && exit 3
+	md5sum --check <<- EOMD5SUM
+	${CHECKSUM}  $1
+	EOMD5SUM
+}
+
+# Fetch firmware if needed
+if [ ! -s ${DATAFILE} ] || ! checkfile ${DATAFILE}; then
+	echo "Either your ${DESCRIPT} is missing, or it is out-of-date."
+	echo "Downloading ${DESCRIPT} from ${UPSTREAM}..."
+
+	# Try downloading it
+	NEWFILE=$(mktemp)
+	[ -z "${NEWFILE}" ] && (echo "Unable to create temporary file!"; exit 2)
+
+	if wget -O ${NEWFILE} ${UPSTREAM} && checkfile ${NEWFILE}; then
+		# We're good!  Copy it to its new home.
+		echo "Download successful, copying to ${DATAFILE}"
+		mv ${NEWFILE} ${DATAFILE}
+		chmod 0444 ${DATAFILE}
+	else
+		# It failed!  Print an error and nuke the temporary file.
+		rm -f ${NEWFILE}
+		cat <<- EOMSG 1>&2
+
+		Warning: Failed to download ${DESCRIPT}.
+		Please run "dpkg-reconfigure ${MYNAMEIS}"
+		again when networking is up, or download the file manually:
+
+		    URL:  ${UPSTREAM}
+		    File: ${DATAFILE}
+
+		EOMSG
+
+		exit 1
+	fi
+fi
+
+#DEBHELPER#

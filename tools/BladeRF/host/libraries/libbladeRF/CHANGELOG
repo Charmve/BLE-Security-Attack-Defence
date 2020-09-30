@@ -1,0 +1,774 @@
+================================================================================
+libbladeRF Change Log Summary
+
+For more detailed information, please see the git change log and issue tracker
+hosted on GitHub: https://github.com/Nuand/bladeRF
+================================================================================
+
+v2.2.0 (2018-12-21)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.3.1
+FPGA         v0.10.2
+
+New features include:
+
+ * FPGA-based RFIC Control on the bladerf2 family:
+   This version adds FPGA-based tuning for the bladeRF 2.0 micro family. This
+   tuning mode has a number of advantages over host-based tuning:
+
+    * Faster command processing: the Nios II processor on the FPGA handles the
+      RFIC control directly, instead of relaying SPI commands between the host
+      and RFIC. This improves turnaround time slightly.
+
+    * State preservation: the device itself maintains the RFIC state, so
+      closing and re-opening the device no longer requires reinitialization. In
+      practice, this is about a 7.5x speedup when doing a "warm" open of an
+      already-initialized device.
+
+    * Headless operation: the Nios II processor on the FPGA is now able to
+      control the RFIC (and the rest of the system) autonomously.
+
+   The previous mode is still available by calling bladerf_set_tuning_mode()
+   with `BLADERF_TUNING_MODE_HOST`, or by setting
+   `BLADERF_DEFAULT_TUNING_MODE=host` in the environment.
+
+ * Quick Tune is now supported on the bladerf2 family:
+   The quick tune functionality permits rapid hopping between frequencies, by
+   saving the state of the RFIC's tuning parameters to memory and then rapidly
+   switching to them at a given time.
+
+   Please refer to the documentation for bladerf_get_quick_tune(),
+   bladerf_schedule_retune(), and bladerf_cancel_scheduled_retunes() for more
+   information.
+
+ * Configuration file: `biastee_rx` and `biastee_tx` options added
+
+API changes since v2.1.0:
+ * Quick Tuning on bladerf2:
+    - `struct bladerf_quick_tune` updated with parameters for bladeRF2
+ * Flash access:
+    - These functions require a `struct bladerf *` as the first parameter:
+      bladerf_alloc_image(), bladerf_alloc_cal_image(), bladerf_image_write()
+    - Added: bladerf_read_flash_bytes(), bladerf_erase_flash_bytes(),
+      bladerf_write_flash_bytes(), bladerf_get_fpga_bytes()
+    - Deprecated: bladerf_read_flash(), bladerf_erase_flash(),
+      bladerf_write_flash()
+
+Bug fixes:
+ * libusb.c: fix unread status variable warning (#693)
+ * bladerf2.c: fix typo in _check_total_sample_rate (#692)
+ * bladerf1.c: fix null ptr dereference (#696)
+ * bladerf1.c: improve AGC-unavailable messaging (#686)
+ * bladerf{1,2}.c: bladerf_load_fpga: release mutex on error (#680)
+ * bladerf1.c: fix apportioning of overall gain via bladerf_set_gain()
+ * bladerf2.c: fix overeager FIR filter management in bladerf_set_sample_rate()
+ * flash.c: FPGA images are now flashable on xA9 boards (#571)
+
+v2.1.0 (2018-10-30)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.3.1
+FPGA         v0.9.0
+
+Note to bladerf1 (x40/x115) users: AGC will not work with FPGA versions
+older than v0.8.0, due to a change in the control register mapping. A warning
+will be printed during device initialization if you are using an affected
+FPGA version.
+
+API additions:
+ * Add format macros for bladerf_frequency and bladerf_timestamp (#623)
+ * Add 'manufacturer' and 'product' device description strings to
+   bladerf_devinfo struct (#624)
+ * Add bladerf_get_serial_struct() API function (#382)
+ * Add bladerf_get_flash_size() API function (#634)
+ * Add bladerf_trigger_signal values for J51-1 (bladerf2) and Miniexp-1
+   (generic) (#656)
+ * Add bladerf_get_fpga_source() API function (#662)
+
+Changes:
+ * bladerf2: Support TX frequencies down to 47 MHz (#598)
+ * bladerf2: Support sample rates down to 0.521 MSps (#593)
+ * docs: install the doxygen documentation (#597)
+ * Adjust RX gain mode lists for clarity (#601)
+ * bladerf1: Fix BLADERF_GPIO_AGC_ENABLE (#607)
+ * Moved FN_RF_PORTS into the FN_LOW_LEVEL section of API docs
+ * bladerf1: implemented bladerf_{get,set}_rf_port[s] (#600, #608, #625)
+ * bladerf2: fix bladerf_trigger_arm implementation (#633)
+ * backend/nios: reduce verbose logging spew (#647)
+ * backend/libusb: return partial info if we can't open the device during
+   lusb_probe() (#648)
+ * bladerf1: skip initialization if BLADERF_FORCE_NO_FPGA_PRESENT is set (#651)
+ * streaming: extend USB transfer timeout to match the configured stream
+   timeout (#659)
+ * backend/dummy, backend/cyapi: fix wrong get_flash_id fptrs (#670)
+ * common: include pthread.h in nanosleep.h (#669) (#671)
+ * thirdparty/adi: fix OSX and FreeBSD compilation issue
+ * streaming: add meta RX hardware flags for underflow, miniexp{1,2}
+
+v2.0.2 (2018-08-30)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.2.0
+FPGA         v0.7.3
+
+There are no functional changes since v2.0.1, although there are changes to
+the API documentation and the cmake build scripts.
+
+Changes:
+ * Improve bladerf_gain_mode documentation (#595)
+ * Don't warn about libusb version on FreeBSD (#594)
+
+v2.0.1 (2018-08-24)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.2.0
+FPGA         v0.7.3
+
+This release contains minor fixes since v2.0.0.
+
+Note to bladeRF2 users: If you are using bladerf_{get,set}_clock_select(),
+please note that the enum for bladerf_clock_select has changed.
+CLOCK_SELECT_VCTCXO has been replaced with CLOCK_SELECT_ONBOARD.
+
+Changes:
+ * FreeBSD build fixes (#561)
+ * 32-bit architecture fixes (#573)
+ * Detect and handle a bladeRF Micro that is running old firmware to allow
+   re-flashing without recovery mode (#578)
+ * bladeRF1: bladerf_set_gain_mode returning BLADERF_ERR_UNSUPPORTED is no
+   longer fatal (#542)
+ * bladeRF1: only check AGC DC LUT setting when enabling AGC
+ * bladeRF1: typo fix in set_tx_gain (#580)
+ * xb200: check for null xb_data before dereferencing it (#575)
+ * bladeRF2: cache factory trimdac value at initialization; preserve trimdac
+   disable state on bladerf2_trim_dac_write (#582)
+ * bladeRF2: bladerf_clock_select: replace CLOCK_SELECT_VCTCXO with
+   CLOCK_SELECT_ONBOARD for clarity (#585)
+ * Improvements to the release notes (#583)
+ * bladeRF-cli: Add 200 ms delay before probing PLL lock status (#587)
+ * Windows: add a nanosleep() shim (#589)
+
+v2.0.0 (2018-08-13)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.2.0
+FPGA         v0.7.3
+
+Initial release supporting the bladeRF 2.0 series, which currently features the
+bladeRF Micro A4 and the bladeRF Micro A9.
+
+Please see the changes for 1.9.x, as well as doc/doxygen/relnotes_2_0.dox,
+for a fuller summary of the changes since the last public release.
+
+Changes:
+ * Add typedefs for common param types, such as bladerf_frequency -> uint64_t
+ * Use a double-pointer on the bladerf_get_*_range calls
+ * Omit unnecessary path elements on log printfs
+ * Add log_get_verbosity function
+ * Add detection of FPGA size for bladeRF Micro
+
+v1.9.2 (2018-05-22)
+--------------------------------
+
+This version is part of development series of changes, not an official release.
+
+Changes:
+ * Low level hardware control functions in bladeRF2.h have been renamed to be
+   hardware-independent
+
+v1.9.1 (2018-03-26)
+--------------------------------
+
+This version is part of development series of changes, not an official release.
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.1.0 (or v1.9.1)
+FPGA         v0.7.2
+
+Changes:
+ * Refactor to support for multiple product lines
+ * Add support for the bladeRF Micro product
+ * API: replace bladerf_module with bladerf_channel, a reverse-compatible
+   change to handle products with multiple independent RF paths in the same
+   direction
+ * API: BREAKING CHANGE - on bladerf_set_frequency, et al, the frequency
+   parameter is now uint64_t instead of unsigned int
+ * Significant code cleanup
+ * Various other changes that will be listed in more detail during an official
+   release
+
+v1.9.0 (2017-12-07)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.0.0 (or v1.9.1)
+FPGA         v0.7.1
+
+Changes:
+ * Added bladeRF.conf config option file
+ * Minor fix-ups
+
+v1.8.0 (2017-07-01)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.0.0 (or v1.9.1)
+FPGA         v0.7.0
+
+Changes:
+ * Added support for Automatic Gain Control
+
+v1.7.2 (2016-06-29)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.0.0 (or v1.9.1)
+FPGA         v0.6.0
+
+Changes:
+ * Fixed bladerf_open() BLADERF_ERR_IO issue that occured when autoloading from flash
+ * Additional documentation fixes
+
+v1.7.1 (2016-05-28)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.0.0 (or v1.9.1)
+FPGA         v0.6.0
+
+Changes:
+ * Non-functional API documentation (Doxygen) updates:
+    - Re-organized and simplified documentation layout
+    - Split "Control and Configuration" section into more cohesive sections
+    - Added clarifications and corrections
+
+v1.7.0 (2016-05-22)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.0.0 (or v1.9.1)
+FPGA         v0.6.0
+
+Changes:
+ * Added SMB clock control functionality
+ * Added synchronization trigger functionality
+ * Added XB-300 support
+ * Fixed NIOS 8x32 reads
+ * Cleaned up and reorganized API docs
+
+v1.6.1 (2016-04-11)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.0.0 (or v1.9.1)
+FPGA         v0.5.0
+
+Changes:
+ * Fixes for issues #465 and #458 (TX timeouts and assert() failures)
+
+v1.6.0 (2016-04-07)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v2.0.0 (or v1.9.1)
+FPGA         v0.5.0
+
+Changes:
+ * Updated to detect devices running firmware with new VID (2cf0) and PID (5246)
+
+v1.5.3 (2016-04-06)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.9.1
+FPGA         v0.5.0
+
+Changes:
+ * Corrected LIBBLADERF_API_VERSION mismatch from v1.5.2
+
+v1.5.2 (2016-04-06)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.9.1
+FPGA         v0.5.0
+
+Changes:
+ * Added FX3 Firmware v1.9.1 to version compatibility table.
+
+v1.5.1 (2016-01-05)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.9.0
+FPGA         v0.5.0
+
+Changes:
+ * Addressed warnings that occur with GCC -Os flag.
+
+
+v1.5.0 (2015-12-31)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.9.0
+FPGA         v0.5.0
+
+Changes:
+ * Added LIBBLADERF_API_VERSION macro to libbladeRF.h
+    - This is intended to assist with compile-time feature checks.
+
+ * Added VCTCXO taming control via 1 PPS or 10 MHz source
+    - bladerf_vctcxo_tamer_mode enumeration
+    - bladerf_set_vctcxo_tamer_mode(), bladerf_get_vctcxo_tamer_mode()
+
+ * Added API functions to set SMB clock to arbitrary frequency:
+    - bladerf_set_rational_smb_frequency()
+    - bladerf_get_rational_smb_frequency()
+    - bladerf_set_smb_frequency()
+    - bladerf_get_smb_frequency()
+
+ * Added non-blocking async buffer submission API function:
+    - bladerf_submit_stream_buffer_nb()
+
+ * Added API call to retreive firmware log and write it to a file:
+    - bladerf_get_fw_log()
+
+ * Added XB-100 pin/button/LED macro definitions and support via
+   bladerf_expansion_attach().
+
+ * Added BLADERF_ERR_PERMISSION. This is now returned in associated file
+   and device access failures.
+
+ * Added enumeration value entries:
+    - BLADERF_MODULE_INVALID, BLADERF_DC_CAL_INVALID
+
+ * Changed default frequencies
+    - RX: 2.447 GHz
+    - TX: 2.484 GHz
+
+ * Removed function prototypes for si5338 functions that removed long ago
+
+ * Fixed an issue where bladerf_sync_tx() was not using all available
+   host-side buffers; host-side buffering was only limited to the
+   number of requested transfers. This now uses all requested buffers.
+
+ * Fixed #415, #416, #417
+
+ * Misc. API documentation and example fixes.
+
+
+v1.4.3 (2015-07-25)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.8.0
+FPGA         v0.3.4
+
+Changes:
+  * Fixed zero-padding on end of bursts (#413)
+  * API documentation updates
+
+
+v1.4.2 (2015-07-22)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.8.0
+FPGA         v0.3.3
+
+Changes:
+  * Paths within the ${CMAKE_INSTALL_PREFIX} are now searched when looking
+    for an FPGA bitstream to autoload.
+
+    LIBBLADERF_SEARCH_PREFIX_OVERRIDE may be defined in the CMake invocation
+    to override the ${CMAKE_INSTALL_PREFIX}, which may be needed during
+    cross-builds.
+
+    The previously hard-coded locations have been kept in the search list,
+    but at a lower priority, to avoid breaking existing packaging scripts.
+
+
+v1.4.1 (2015-07-16)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.8.0
+FPGA         v0.3.3
+
+Changes:
+  * bladerf_open() and bladerf_open_with_devinfo() now support matching
+    a subset of a serial number.
+
+  * Fixed regression in XB-200 filter bank selection (#404)
+
+  * Fixed regression in exiting loopback mode (#405)
+
+
+v1.4.0 (2015-06-30)
+--------------------------------
+
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.8.0
+FPGA         v0.3.3
+
+Changes:
+  * Fix bug in read NIOS 8x16 packet value
+
+  * Added API function for readback of current VCTCXO trim DAC value
+    (as opposed to calibration data from flash).
+        - bladerf_dac_read()
+
+
+v1.3.1 (2015-06-18)
+--------------------------------
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.8.0
+FPGA         v0.3.1
+
+Changes:
+  * Added support for new NIOS II packet handlers introduced in FPGA v0.3.x
+
+
+v1.3.0 (2015-06-18)
+--------------------------------
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.8.0
+FPGA         v0.3.1
+
+Changes:
+  * Added API calls for new frequency tuning support:
+    - bladerf_schedule_retune()
+    - bladerf_get_quick_tune()
+    - bladerf_set_tuning_mode()
+
+  * Added error code: BLADERF_ERR_FPGA_OP
+    - Denotes failure in operation performed on FPGA
+
+  * Logo included in repo for documentation build
+
+v1.2.1 (2015-02-28)
+--------------------------------
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.8.0
+FPGA         v0.1.2
+
+Changes:
+  * Build fixes for MinGW (cross-compilation) and OSX
+
+v1.2.0 (2015-01-31)
+--------------------------------
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.8.0
+FPGA         v0.1.2
+
+Changes:
+  * Added support for BLADERF_LOG_LEVEL environment variable. This controls
+     the default verbosity of libbladeRF and may be set to one of the following
+     strings: critical, error, warning, info, debug, verbose.
+  * Syslog support has been introduced to aid in debugging of applications that
+     suppress libbladeRF's stderr output. This can be enabled at compile-time
+     via the ENABLE_LIBBLADERF_SYSLOG CMake option, which defaults to OFF.
+  * Linux: A port reset is now performed when opening a device. This addresses
+     an issue where the bladeRF could not be opened after an application
+     crashes. (Fixes issue #95.)
+  * Fixed signal quality issues caused by LPF DC calibration comparators
+     being left on. Prior to the associated changes, significant images in the
+     spectrum could be observed prior to performing DC calibration routines.
+  * Fixed XB-200 signal attenuation issues that occurred when bypassing the
+     XB-200 mixer (i.e., operating in the normal bladeRF tuning range with
+     an XB-200 attached).
+  * LMS DC cal registers are now loaded from tables at every device open()
+     rather than just during the post-FPGA load initialization. This ensures
+     that values from updated tables are used.
+  * Fixed probe() implementation in Cypress backend to correctly report
+     devices that are already opened.
+
+v1.1.0 (2014-12-23)
+--------------------------------
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.8.0
+FPGA         v0.1.2
+
+Changes:
+  * Added bladerf_get_bootloader_list() API function to allow applications to
+     detect devices in bootloader mode.
+  * Added bladerf_load_fw_from_bootloader() API function to allow applications
+     to download firmware to devices in bootloader mode.
+  * File searching (e.g., for host-based FPGA loading) now searches the
+     following, prior to the currently search paths:
+       - The directory specified by the BLADERF_SEARCH_DIR environment variable
+       - The current working directory
+       - The directory containing the running executable
+  * Removed library [INFO] message about detected devices in bootloader mode.
+     This is now done in the bladeRF-cli program.
+  * Fixed build issue that resulted in libusb version not being reported
+     correctly in verbose log output.
+
+
+v1.0.0 (2014-11-29)
+--------------------------------
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.8.0
+FPGA         v0.1.2
+
+Changes:
+ * Major version number bumped to indicate stable API.
+ * Removed stdbool.h inclusion for C++ code in API header.
+ * Fixed USB control transfer issue that caused SPI flash corruption
+   in Windows when using libusb with the WinUSB driver.
+ * When an FPGA is autoloading from SPI flash, the bladerf_open() and
+   bladerf_open_with_devinfo() calls now wait for the autoload to complete.
+     * This requires FW v1.8.0.
+
+v0.17.0 (2014-10-30)
+--------------------------------
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.7.1
+FPGA         v0.1.1
+
+Changes:
+ * Added support for CyUSB3/CyAPI backend
+ * Added timestamp metadata support to synchronous interface. This includes
+    modifications to the bladerf_metadata structure and the introduction of the
+    BLADERF_FORMAT_SC16_Q11_META format.
+ * libbladeRF functions have been made thread-safe.
+ * The Windows installation directory is now searched when performing
+    host-based FPGA and DC calibration file auto-loading.
+ * Improved log output; moved output to more appropriate levels and included
+    filename and line number log messages.
+ * Removed BLADERF_FORMAT_SC16Q12 reverse compatibility macro.
+ * Added macro definitions for FPGA configuration bits:
+    - BLADERF_GPIO_COUNTER_ENABLE
+    - BLADERF_GPIO_TIMESTAMP
+    - BLADERF_GPIO_TIMESTAMP_DIV2
+ * Fixed bugs that caused deadlocks and crashes.
+ * Fixed device probe/open functions to continue searching for devices
+    if a failing or busy device is encountered.
+ * Improved API documentation and included more complete example usages
+    of the synchronous interface. Snippets from programs in doc/examples are
+    now included in the Doxygen output.
+
+
+v0.16.2 (2014-07-24)
+--------------------------------
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.7.1
+FPGA         v0.0.6
+
+Changes:
+ * Minor changes build with respect to OSX RPATH. This should not
+   affect Windows or Linux users.
+
+
+v0.16.1 (2014-07-20)
+--------------------------------
+This version of libbladeRF is intended for use with:
+
+FX3 Firmware v1.7.1
+FPGA         v0.0.6
+
+Changes:
+ * Preliminary implementation of bladerf_set_gain() and XB-200 automatic
+   filterbank selection functions.
+ * Introduced FPGA and FX3 version compatibility checks and warnings messages
+   when incompatible/unknown versions are detected
+ * Fixed set/get loopback mode, with respect to firmware loopback functionality.
+   Firmware loopback now requires FW v1.7.1+
+ * Bug fixes for:
+    + Frequency readback (when XB-200 is attached)
+    + Read back of XB-200 path
+    + Samplerate-transfer relationship equation in API docs
+    + Version comparison routines
+
+v0.16.0 (2014-07-04)
+--------------------------------
+ * Added XB-200 support
+ * Added experimental DC calibration and DC calibration table support
+ * Added "software autoload" of FPGAs and DC cal tables from config directories
+    - In Linux & OSX the following directories are searched:
+        ~/.config/Nuand/bladeRF/, ~/.Nuand/bladeRF/, /etc/Nuand/bladeRF/
+    - In Windows, %APPDATA%/Nuand/bladeRF is searched
+ * Added "File not found" (BLADERF_ERR_NO_FILE) return code
+ * Allow tuning up to 3.8GHz
+ * Fixed incorrect version checks
+    - This resolves issue where VCTCXO value stored in SPI Flash
+      isn't loaded when using FPGA v0.0.3.
+ * Fixed intermittent FPGA load failures
+
+
+v0.15.0 (2014-05-17)
+--------------------------------
+ * API changes:
+    - Added functions:
+        + FPGA timestamp access (requires FPGA v0.0.4+)
+        + Expansion board GPIO and SPI accessors (requires FPGA v0.0.4+)
+    - Added firmware loopback option (requires FX3 FW v1.7.0+)
+    - Changed SPI flash access functions
+        + Functions now operate in units of erase blocks and pages
+    - Removed un-aligned accesses
+ * Overhauled backend interface to decouple device logic from libusb code.
+    - Moved code to a generic USB interface and libusb code under
+      that interface. This should allow host-specific drivers to be more
+      easily integrated.
+ * Addressed race conditions in the async RX/TX interface.
+    - pthreads is now a required dependency of libbladeRF.
+ * Bug fixes for the sync RX/TX interface
+ * Windows build and compatibility fixes
+
+
+v0.14.0 (2014-03-08)
+--------------------------------
+ * Added a new synchronous data transfer interface that operates atop the
+   existing asynchronous interface.
+ * Removed of bladerf_rx() and bladerf_tx() functions
+    - These have been replaced by bladerf_sync_rx() and bladerf_synx_tx()
+ * Renamed stream transfer timeout functions
+
+
+v0.13.1 (2014-02-27)
+--------------------------------
+ * Bug fixes for regressions introduced into LMS6002 code in v0.13.0
+
+
+v0.13.0 (2014-02-13)
+--------------------------------
+ * Refactored LMS code and loopback support
+ * Updated API calls to allow NULL for optional API parameters
+ * Added dummy backend
+    - This is intended for developers. It allows the library to build while
+      other backend code is disabled.
+ * Misc. minor bug fixes
+
+
+v0.12.1 (2014-01-19)
+--------------------------------
+ * Normalized DC offset functions to accept values in [-2048, 2048]
+    - Additional range checking added
+
+
+v0.12.0 (2014-01-18)
+--------------------------------
+ * API changes:
+    - Naming correction: BLADERF_IQ_CORR_* changed to BLADERF_CORR_*
+    - Removed unused bladerf_stats structure
+    - Fixed format misnomer: BLADERF_FORMAT_SC16_Q12 has been renamed to
+      BLADERF_FORMAT_SC16_Q11.
+    - Fixed names of transfer timeout functions:
+        get/set_transfer_timeout() -> bladerf_get/set_transfer_timeout()
+
+ * During initialization, the device is switched to USB_IF_NULL in order to
+   ensure it is in a known state.
+
+
+v0.11.2 (2014-01-14)
+--------------------------------
+ * Switch to USB_IF_NULL when closing a device to avoid issues when attempting
+   to reopen a device on OSX
+
+
+v0.11.1(.1) (2014-01-05)
+--------------------------------
+ * Fixed race conditions caused by use of bladerf_enable_module() in the
+   implementation of bladerf_stream(). Users are now responsible for
+   ensuring a module enabled before attempting to start a stream.
+
+
+v0.11.0 (2013-12-28)
+--------------------------------
+ * Added support for reading back an FPGA version number
+ * Explicitly define calling conventions on API functions (Windows)
+ * Fixed build for libusbx-1.0.9
+    - Misc build and code fixes for libusb detection and version checks
+ * Sped up SPI flash writes
+ * Decreased default library verbosity
+
+v0.10.0 (2013-11-28)
+--------------------------------
+ * Added API support for initializing, backing up, and restoring the
+   calibration data stored in SPI flash
+ * Fixed incorrect definition of FPGA region of SPI flash
+ * Fixed RPATH issue in OSX
+ * License changed to LGPLv2.1
+
+v0.9.0 (2013-10-21)
+--------------------------------
+ * Added option to disable log output at compile-time
+ * Added BLADERF_LOG_LEVEL_SILENT to disable log output at run-time
+
+v0.8.0 (2013-10-21)
+--------------------------------
+ * Added API functions to get/set stream transfer timeouts
+ * Fixed Win64 build issues
+ * Fixes for various bugs in LMS code
+
+v0.7.0 (2013-10-14)
+--------------------------------
+ * Added API function to flash FPGA image (to allow for autoloading)
+ * Improved frequency tuning algorithm
+ * Fixes for flash-related code
+
+v0.6.2 (2013-10-04)
+--------------------------------
+ * Fixed memory leaks
+
+v0.6.1 (2013-10-04)
+--------------------------------
+ * Corrected access of firmware version info
+
+v0.6.0 (2013-10-03)
+--------------------------------
+ * Added bladerf_version structure to API and modified version
+   accessors to use this structure.
+ * LMS bug fixes
+ * Backwards compatibility and MSVC compatibility fixes
+
+v0.5.0 (2013-09-22)
+--------------------------------
+ * Internal changes to support major refactoring of FX3 code
+ * Fixed sample count on initial TX callback
+
+v0.4.0 (2013-09-18)
+--------------------------------
+ * Added asynchronous data transfer interface to API
+ * Added device identifier matching routines to API
+
+v0.3.0 (2013-08-13)
+--------------------------------
+ * Transitioned to CMake-based build
+ * Introduced libusb support

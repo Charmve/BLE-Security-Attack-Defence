@@ -1,0 +1,102 @@
+#-------------------------------------------------------------------------------
+#
+# This file is intended to give credit to all the people who have contributed to
+# the bladeRF project, and doubles as "MAINTAINERS" file. It also serves to help
+# keep track of who is familiar with various portions of the codebase.
+#
+# For bugs and questions, github, the forum, and IRC should be used. (Please
+# avoid spamming contributors!)
+#
+# This file is "opt-in" only. Feel free to provide as much or as little
+# information about your contributions as you wish. If you should be listed in
+# this file and you're not, please submit a patch or pull request for this file,
+# email us, or catch us on IRC.
+#
+# Contributors are sorted by last name or handle. The fields are:
+#   (N) Name or handle
+#   (E) Email address
+#   (F) Handle on nuand forums
+#   (I) IRC handle in Freenode/#bladerf
+#   (G) GitHub handle
+#   (D) Description of contributions or project responsibilities
+#   (W) Website
+#
+# Feel free to add multiple fields (e.g., multiple (W) fields - one per site),
+# and omit fields.
+#
+#-------------------------------------------------------------------------------
+
+N: Damiano Bolla
+I: engidea
+G: Engidea
+D: si5338 sample rate functionality, misc. bugfixes
+
+N: Ian Frasch
+F: ifrasch
+G: ifrasch
+D: bladeRF-FSK modem project
+
+N: Robert Ghilduta
+E: robert.ghilduta@nuand.com
+F: robertghilduta
+I: mIKEjONES
+G: robertghilduta
+D: Project maintainer
+
+N: Brian Glod
+E: brian.glod@nuand.com
+F: bglod
+I: bglod
+G: bglod
+D: Project maintainer
+
+N: Adam Greig
+E: adam@adamgreig.com
+F: adamgreig
+I: adamgreig
+G: adamgreig
+D: libbladeRF LPF mode routines
+
+N: Cameron Karlsson
+D: NIOS II redesign, refactoring, and clean-up
+G: ckgt
+
+N: Mike Kershaw
+E: dragorn@kismetwireless.net
+I: dragorn
+G: dragorn
+D: CLI bug fixes
+
+N: Brian Padalino
+E: brian.padalino@nuand.com
+F: bpadalino
+I: bpadalino
+G: bpadalino
+D: Project maintainer
+
+N: Keith Rothman
+E: litghost@softhome.net
+F: litghost
+I: litghost
+G: litghost
+D: Host and FX3 FW fixes, FW flashing and recovery support
+
+N: Marco Schwan
+E: bladerf@maggo.info
+F: maggo1404
+I: maggo1404
+G: maggo1404
+D: OSX build fixes
+
+N: Jon Szymaniak
+F: jynik
+I: jynik
+G: jynik
+D: Former developer and project maintainer
+
+N: Rey Tucker
+E: rey.tucker@nuand.com
+F: rtucker
+I: HoopyCat
+G: rtucker
+D: Project maintainer, developer, PPA maintainer

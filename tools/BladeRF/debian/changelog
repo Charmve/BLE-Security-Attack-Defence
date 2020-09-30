@@ -1,0 +1,250 @@
+bladerf (2019.07) unstable; urgency=low
+
+  * Release for 2019.07 tag
+  * Various libbladeRF and HDL fixes
+  * FPGA bitstream v0.11.2, FX3 FW v2.3.2, libbladeRF v2.2.1, bladeRF-cli
+    v1.8.0
+
+ -- Robert Ghilduta (Nuand LLC) <robert.ghilduta@nuand.com>  Thu, 01 Aug 2019 22:54:28 -0400
+
+bladerf (2018.12-rc2) unstable; urgency=low
+
+  * Release candidate 2 for 2018.12. Please see the top-level CHANGELOG file,
+    as well as the sub-project CHANGELOG files, for more details.
+  * AD936x RFIC vendor library code moved to thirdparty/
+  * FPGA bitstream v0.10.2, FX3 FW v2.3.1, libbladeRF v2.2.0, bladeRF-cli
+    v1.7.1
+
+ -- Rey Sabrina Tucker (Nuand LLC) <rey.tucker@nuand.com>  Fri, 21 Dec 2018 16:52:49 -0500
+
+bladerf (2018.10-rc1) unstable; urgency=low
+
+  * Release candidate 1 for 2018.10. Please see the top-level CHANGELOG file,
+    as well as the sub-project CHANGELOG files, for more details.
+  * control: fix bladeRF 2.0 Micro xA4/xA9 nomenclature
+  * libbladerf-doc: new package, containing doxygen-generated libbladeRF API
+    documentation
+  * FPGA bitstream v0.9.0, FX3 FW v2.3.1, libbladeRF v2.1.0, bladeRF-cli
+    v1.7.0
+
+ -- Rey Sabrina Tucker (Nuand LLC) <rey.tucker@nuand.com>  Tue, 30 Oct 2018 17:06:11 -0400
+
+bladerf (2018.08) unstable; urgency=low
+
+  * debian: update packaging files (#596)
+  * Improve bladerf_gain_mode documentation (#595)
+  * Don't warn about libusb version on FreeBSD (#594)
+  * FPGA bitstream v0.7.3, FX3 FW v2.2.0, libbladeRF v2.0.2, bladeRF-cli
+    v1.6.1
+
+ -- Rey Sabrina Tucker (Nuand LLC) <rey.tucker@nuand.com>  Thu, 30 Aug 2018 18:01:12 -0400
+
+bladerf (2018.08-rc3) unstable; urgency=low
+
+  * Release candidate 3 for the 2018.08 release
+  * Detect and handle a bladeRF Micro that is running old firmware to allow
+    re-flashing without recovery mode (#578)
+  * bladeRF1: bladerf_set_gain_mode returning BLADERF_ERR_UNSUPPORTED is no
+    longer fatal (#542)
+  * bladeRF1: only check AGC DC LUT setting when enabling AGC
+  * bladeRF1: typo fix in set_tx_gain (#580)
+  * xb200: check for null xb_data before dereferencing it (#575)
+  * bladeRF2: cache factory trimdac value at initialization; preserve trimdac
+    disable state on bladerf2_trim_dac_write (#582)
+  * bladeRF2: bladerf_clock_select: replace CLOCK_SELECT_VCTCXO with
+    CLOCK_SELECT_ONBOARD for clarity (#585)
+  * Improvements to the release notes (#583)
+  * bladeRF-cli: Add 200 ms delay before probing PLL lock status (#587)
+  * "set loopback" help dialog aware of board type (#566)
+  * FPGA bitstream v0.7.3, FX3 FW v2.2.0, libbladeRF v2.0.1, bladeRF-cli
+    v1.6.1
+
+ -- Rey Tucker <rey.tucker@nuand.com>  Fri, 24 Aug 2018 16:19:32 -0400
+
+bladerf (2018.08-rc2) unstable; urgency=low
+
+  * Release candidate 2 for the 2018.08 release
+  * Fix builds on 32-bit architectures
+  * Fix builds on FreeBSD
+  * Fix Debian/Ubuntu packaging
+
+ -- Rey Tucker <pgp@reytucker.us>  Thu, 16 Aug 2018 19:55:00 -0400
+
+bladerf (2018.08-rc1) unstable; urgency=low
+
+  * Release candidate 1 for the 2018.08 release
+  * Adds support for the bladeRF 2.0 Micro
+  * Major version number change: libbladerf1 is now libbladerf2
+  * FPGA bitstream v0.7.3, FX3 FW v2.2.0, libbladeRF v2.0.0, bladeRF-cli v1.6.0
+
+ -- Rey Tucker <pgp@reytucker.us>  Wed, 15 Aug 2018 21:07:42 -0400
+
+bladerf (2017.12-rc1) unstable; urgency=low
+
+  * Release candidate 1 for the 2017.12 release
+  * FPGA bitstream v0.7.1, FX3 FW v2.0.0, libbladeRF v1.9.0, bladeRF-cli v1.5.1
+
+ -- Rey Tucker <pgp@reytucker.us>  Fri, 08 Dec 2017 11:35:12 -0500
+
+bladerf (2017.07) unstable; urgency=low
+
+  [ Robert Ghilduta ]
+  * Add Automatic Gain Control
+
+  [ Rey Tucker ]
+  * debian: fix permissions on FPGA and firmware binaries after downloading
+
+ -- Robert Ghilduta <robert.ghilduta@nuand.com>  Sun, 02 Jul 2017 21:14:15 -0400
+
+bladerf (2016.06) unstable; urgency=low
+
+  * Added synchronization trigger functionality
+  * Added SMB clock port control to libbladeRF API
+  * Added XB-300 support
+  * Added detection of v2.0.0 firmware series (with new VID/PID)
+  * FPGA bitstream v0.6.0, FX3 FW v2.0.0, libbladeRF v1.7.2, bladeRF-cli v1.4.0
+
+ -- Jon Szymaniak <jon.szymaniak@nuand.com>  Wed, 29 Jun 2016 16:10:35 -0400
+
+bladerf (2016.01-rc1) unstable; urgency=low
+
+  * Added support for VCTCXO taming using 1.8V 1 PPS or 10 MHz input signal
+  * Revised DC offset correction algorithm; fixes lockups
+  * Added firmware logging mechanism
+  * Updated firmware to FX3 SDK 1.3.3
+  * Added libbladeRF support for setting SMB clock to arbitrary frequency
+  * Added XB-100 host support
+  * Fixed TX undderrun issues (now correctly uses all available buffers)
+  * FPGA bitstream v0.5.0, FX3 FW v1.9.0, libbladeRF v1.5.1, bladeRF-cli v1.3.1
+
+ -- Jon Szymaniak <jon.szymaniak@nuand.com>  Thu, 07 Jan 2016 16:35:09 -0500
+
+bladerf (2015.07) unstable; urgency=low
+
+  * FPGA: Fixed bug where TX_NOW bursts could cause metadata/sample FIFO slips
+  * libbladeRF: Devices can now be opened using only a subset of a serial number
+  * libbladeRF: Fixed regressions in XB-200 filterbank selection and loopback support
+  * libbladeRF: Corrected zero-padding at end of TX burst
+  * FPGA bitstream v0.3.4, FX3 Firmware v1.8.0, libbladeRF v1.4.3, bladeRF-cli v1.2.1
+
+ -- Jon Szymaniak <jon.szymaniak@gmail.com>  Sat, 25 Jul 2015 16:35:38 -0400
+
+bladerf (2015.06-rc1) unstable; urgency=low
+
+  [ Jon Szymaniak ]
+  * FPGA, libbladeRF: Configurable tuning modes: host and fpga
+  * FPGA, libbladeRF: Scheduled retune: retune module at specified sample timestamp
+  * FPGA, libbladeRF: Quick retune: retune using previously identified tuning parameters
+  * FPGA, libbladeRF: Readback of current vctcxo trim DAC settting
+  * bladeRF-cli: Added semicolon command separator support
+  * bladeRF-cli: Added 'print trimdac' implementation
+
+  [ Ryan Tucker ]
+  * Fixup debian/changelog for rc1 
+
+ -- Ryan Tucker <rtucker@gmail.com>  Wed, 01 Jul 2015 20:07:04 -0400
+
+bladerf (2015.02) unstable; urgency=low
+
+  * Build fixes
+
+ -- Jon Szymaniak <jon.szymaniak@gmail.com>  Sat, 28 Feb 2015 15:58:39 -0500
+
+bladerf (2015.01-rc2) unstable; urgency=low
+
+  * Fixed issue #95, which prevented device from being opened after an application crash
+  * Fixes for undesired XB-200 signal attenuation and LMS signal integrity issues
+  * Added BLADERF_LOG_LEVEL support and optional libbladeRF syslog support
+  * FPGA bitstream v0.1.2, FX3 Firmware v1.8.0, libbladeRF v1.2.0, bladeRF-cli v1.1.1
+
+ -- Jon Szymaniak <jon.szymaniak@gmail.com>  Sat, 31 Jan 2015 17:02:35 -0500
+
+bladerf (2014.12-rc1) unstable; urgency=low
+
+  * Added libbladeRF API functions for finding and recovering devices in bootloader mode
+  * Added BLADERF_SEARCH_DIR, current working directory, and binary dir to libbladeRF file search path
+  * The bladeRF-cli -p/--probe option now returns a non-zero return code if no devices were found.
+  * FPGA bitstream v0.1.2, FX3 Firmware v1.8.0, libbladeRF v1.1.0, bladeRF-cli v1.1.0
+
+ -- Jon Szymaniak <jon.szymaniak@gmail.com>  Tue, 22 Dec 2014 14:06:49 -0500
+
+bladerf (2014.11) unstable; urgency=low
+
+  * First stable libbladeRF API release
+  * FPGA bitstream v0.1.2, FX3 Firmware v1.8.0, libbladeRF v1.0.0, bladeRF-cli v1.0.0
+
+ -- Jon Szymaniak <jon.szymaniak@gmail.com>  Sun, 30 Nov 2014 16:18:33 -0500
+
+bladerf (2014.11-rc3) unstable; urgency=low
+
+  * Second of three release candidates for rescheduled 2014.11 release
+  * FPGA bitstream v0.1.1, FX3 Firmware v1.7.1, libbladeRF v0.17.0, bladeRF-cli v0.12.0
+  * Introduced timestamp metadata support in libbladeRF's synchronous interface
+  * A majority of libbladeRF functions have been made thread-safe.
+  * Fixes for DC calibration issues, deadlocks, crashes, and various defects.
+
+ -- Jon Szymaniak <jon.szymaniak@gmail.com>  Thu, 30 Oct 2014 21:59:38 -0400
+
+bladerf (2014.09-rc2) unstable; urgency=low
+
+  * Tagged release 2014.09-rc2 at dddc72f
+  * Second of three release candidates for 2014.09 release
+  * FPGA bitstream v0.0.6, FX3 Firmware v1.7.1, libbladeRF v0.16.2, bladeRF-cli v0.11.1
+  * Closes #284: [hdl (nios)] Defects present in gain/phase correction bug
+  * Closes #271: Frequency readback is incorrect when using xb200 bug
+  * Closes #270: Markdown-ify the bladeRF-cli interactive help
+  * Closes #254: bladeRF-cli: Clean up print/set lnagain bug
+  * Closes #249: [libbladeRF] LMS VTUNE not locking occasionally bug
+  * Closes #248: [bladeRF-Cli] Fix 'correct' command parameter ranges, cleanup usage and help text bug
+  * Closes #243: [libbladeRF] Remove bladerf_* calls from lms.c enhancement
+  * Closes #234: [libbladeRF] Cleanup: Move bladerf_get/set_sampling to lms.c enhancement
+  * Closes #220: libbladeRF: LMS SELOUT[1:0] may be left in an invalid state upon exiting loopback mode bug
+  * Closes #210: [CLI] After a calibrate command is issued, the bladeRF transmits a carrier. bug
+
+ -- Ryan Tucker <rtucker@gmail.com>  Thu, 24 Jul 2014 22:59:24 -0400
+
+bladerf (2014.09-rc1) unstable; urgency=low
+
+  * Tagged release 2014.09-rc1 at 9c651b5
+  * First of two release candidates for 2014.09 release
+  * FPGA bitstream v0.0.5, FX3 Firmware v1.7.0, libbladeRF v0.16.0, bladeRF-cli v0.11.0
+  * Closes #268: [libbladeRF] Version check routines have flipped logic bug
+  * Closes #257: [libbladeRF] Remove incorrect error_conv() call(s).
+  * Closes #256: [libbladeRF] Intermittent FPGA load failures bug
+  * Closes #246: [libbladerRF] Added an error code for "File not found" errors enhancement
+  * Closes #245: [libbladeRF] bladerf_set_bandwidth() does not appropriately handle actual=NULL bug
+  * Closes #244: [libbladeRF] Lock-up occurs if sync TX is configured but not used
+  * Closes #241: TX Stream can lose initial buffers
+  * Closes #237: [libbladeRF] XB-200 support and API calls required bug
+  * Closes #235: [libbladeRF] Change API return values for flash calls - return 0, not >= 0. bug
+  * Closes #228: [libbladeRF] Additional libusb function checks required bug
+  * Closes #223: FPGA DC remover block enhancement
+  * Closes #217: Probe returns Backend Id's, bladerf_open wants a string for the backend. bug
+  * Closes #211: [bladeRF-cli] Text wraps around in man pages bug
+  * Closes #189: [libbladeRF] Refactor backend interface and libusb backend implementation enhancement
+  * Closes #176: [libbladeRF] Mixup between SPI flash "sector" and "erase block" enhancement
+  * Closes #55: CLI: A number of commands are still unimplemented stubs bug
+  * Closes #46: CLI: Add -e <cmd> support enhancement
+
+ -- Ryan Tucker <rtucker@gmail.com>  Sat, 05 Jul 2014 14:56:29 -0400
+
+bladerf (0~20131229-1) unstable; urgency=low
+
+  * Rename libbladerf0-dev -> libbladerf-dev
+
+ -- Ryan Tucker <rtucker@gmail.com>  Sun, 29 Dec 2013 16:04:17 -0500
+
+bladerf (0~20131006-1) unstable; urgency=low
+
+  * Another experimental release
+  * Make it work
+  * Rebase to b80d31f5 (Merge pull request #140)
+  * Generate man pages from markdown'd doxygen
+
+ -- Ryan Tucker <rtucker@gmail.com>  Sun, 06 Oct 2013 19:38:31 -0400
+
+bladerf (0~20130929-1) unstable; urgency=low
+
+  * Initial Debian packaging (Closes: #121)
+
+ -- Ryan Tucker <rtucker@gmail.com>  Sun, 29 Sep 2013 17:41:30 +0000

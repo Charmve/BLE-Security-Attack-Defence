@@ -1,0 +1,42 @@
+/*
+ * Copyright (c) 2013 Nuand LLC
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+#ifndef _FIRMWARE_H_
+#define _FIRMWARE_H_
+
+#include <stddef.h>
+#include "cyu3error.h"
+
+CyU3PReturnStatus_t NuandReadOtp(size_t offset, size_t size, void *buf);
+CyU3PReturnStatus_t NuandWriteOtp(size_t offset, size_t size, void *buf);
+CyU3PReturnStatus_t NuandLockOtp();
+uint8_t NuandGetSPIManufacturer();
+uint8_t NuandGetSPIDeviceID();
+void cacheSPIManufacturer();
+
+
+CyU3PReturnStatus_t NuandFlashInit();
+void NuandFlashDeinit();
+
+int NuandExtractField(char *ptr, int len, char *field,
+                            char *val, size_t  maxlen);
+
+#endif /* _FIRMWARE_H_ */

@@ -1,0 +1,15 @@
+release procedure:
+
+Set release string in host/cmake/set_release.cmake
+
+scripted (release.sh):
+- git archive
+- nanoc compile
+- make Ubertooth One firmware binaries
+
+manual:
+- write RELEASENOTES.txt
+- update README.md to reflect new version (two places)
+- tar -czvf
+- upload to GitHub
+- update #ubertooth topic
