@@ -7,14 +7,14 @@
 			<td><font size="4">1.</font></td>
 			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
 			<td>
-				<center><font size="4">&nbsp; <b>BlueBorne</b>: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device</center>
+				<p align="center"><b>BlueBorne</b>: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 				<br>
-				&nbsp; <b>Ben Seri</b> & <b>Gregory Vishnepolsky </b>
-				<br><br>
+				<b>Ben Seri</b> & <b>Gregory Vishnepolsky </b></p>
 				<p align="left"><font size =2>In this talk we will present the ramifications of airborne attacks, which bypass all current security measures and provide hackers with a contagious attack, capable of jumping over "air-gapped" networks...</font></p>
-				&nbsp; <img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2017
+				<p align="center"><img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2017
 				<br>
-				&nbsp; [<b><a href="https://www.armis.com/blueborne/" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/01_BlueBorne" target="_blank"><b>Project Page</b></a> |  <a href="https://www.youtube.com/watch?v=WWQTlogqF1I" target="_blank"><b>Video</b></a>]
+				[<b><a href="https://www.armis.com/blueborne/" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/01_BlueBorne" target="_blank"><b>Project Page</b></a> |  <a href="https://www.youtube.com/watch?v=WWQTlogqF1I" target="_blank"><b>Video</b></a>]
+				</p>
 			</font>
 			</td>
 		</tr>
