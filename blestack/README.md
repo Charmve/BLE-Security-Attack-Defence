@@ -4,7 +4,7 @@
   * [Supported hardware](#supported-hardware)
   * [Browsing](#browsing)
   * [Sample Applications](#sample-applications)
-* [nRF5_SDK_15.0.0_a53641a](#nrf5_sdk_15.0.0_a53641a)
+* [nRF5_SDK_15.0.0_a53641a](#nrf5_sdk_1500_a53641a)
 * [PyBluez](#pybluez)
   * [Platform Support](#platform-support)
   * [Python Version Support](#python-version-support)
@@ -12,12 +12,9 @@
 * [LightBlue](#lightblue)
   * [Requirements](#requirements)
   * [Installation](#installation)
-  * [Browsing](#browsing)
-  * [Browsing](#browsing)
 
 
     
-
 # Mynewt-Nimble
 <img src="http://mynewt.apache.org/img/logo.svg" width="250" alt="Apache Mynewt">
 
@@ -109,6 +106,7 @@ UART / Serial Port Emulation service
 Nordic nrf52832
 
 repo: https://github.com/lingyq/nRF5_SDK_15.0.0_a53641a
+
 <br>
 
 # PyBluez
@@ -160,7 +158,7 @@ for address, name in devices.items():
     print("name: {}, address: {}".format(name, address))
 ```
 
-
+<br>
 
 # LightBlue
 
