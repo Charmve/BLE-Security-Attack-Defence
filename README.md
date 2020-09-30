@@ -4,9 +4,6 @@
 	<table>
 	<tbody>
 		<tr>
-			<font size="4"><b>2020</b></font> <br>
-		</tr>
-		<tr>
 			<td><font size="4">1.</font></td>
 			<td><center><img width="300" height="240" src="glass_teaser.png"><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
 			<td><font size="4">&nbsp; <b>BlueBorne</b> - A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
@@ -165,7 +162,7 @@
 				&nbsp; <b>Mike Ryan, Founder</b>, ICE9 Consulting
 				<p align="left" ><font size =2>With the continuing growth of IoT, more and more devices are entering the market with Bluetooth. This talk will shed some light on how these devices use Bluetooth and will cover reverse engineering techniques that in many cases can be accomplished with hardware you already have! Whether you're a Bluetooth newbie or a seasoned pro, you’ll learn something from this talk....</font>
 				</p>
-				&nbsp; <i><img width="30" height="30" src="image/RSA_Conference.jpg"> RSA Conference</i>
+				&nbsp; <i><img width="30" height="30" src="image/RSA_Conference.png"> RSA Conference</i>
 				<br>
 				&nbsp; [<b><a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Michalevsky-MASHABLE-Mobile-Applications-Of-Secret-Handshakes-Over-Bluetooth-LE-wp.pdf" target="_blank">PDF</a></b> | <a href="https://www.blackhat.com/asia-17/briefings.html#mashable-mobile-applications-of-secret-handshakes-over-bluetooth-le" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=gCQ3iSy6R-U" target="_blank"><b>Video</b></a>]
 			</font></td>
