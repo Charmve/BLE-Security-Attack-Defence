@@ -1,7 +1,6 @@
 # Bluetooth LE-Security: method, tools and stack
 
 <h2>Bluetooth LE Vulnerability &nbsp<a href="https://charmve.blog.csdn.net/" target="_blank">[Google Scholar]</a></h2>
-
 	<table>
 	<tbody>
 		<tr>
