@@ -21,7 +21,6 @@ https://www.armis.com/blog/
 
 
 ===============
-
 Dependencies:
 
     pip2 packages: pybluez, pwn, scapy
