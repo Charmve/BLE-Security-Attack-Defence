@@ -1,3 +1,4 @@
+# Btle Stack
 * [Mynewt-Nimble](#mynewt-nimble)
   * [Overview](#overview)
   * [Supported hardware](#supported-hardware)
@@ -102,7 +103,9 @@ UART / Serial Port Emulation service
 (https://developer.nordicsemi.com/nRF5_SDK/nRF51_SDK_v8.x.x/doc/8.0.0/s110/html/a00072.html).
 
 <br>
+
 # nRF5_SDK_15.0.0_a53641a
+
 Nordic nrf52832
 
 repo: https://github.com/lingyq/nRF5_SDK_15.0.0_a53641a
@@ -212,4 +215,4 @@ Python for Series 60:
     Download the appropriate SIS file for your phone from the LightBlue home page (http://lightblue.sourceforge.net). Send the file to your phone, and open and install. Or, use the Nokia PC Suite to install the SIS file.
     
 <br>
-* <i>Update by Sep 30，2020 @[<a href="https://github.com/Charmve" target="_blank">Charmve</a>], follow me</i>
+* <i>Update by Sep 30，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, follow me</i>
