@@ -9,7 +9,7 @@
 <table>
 	<tr>
 		<td><font size="4">1.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/embed/WWQTlogqF1I" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457791/video_to_markdown/images/youtube--WWQTlogqF1I-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BlueBorne: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>BlueBorne</b>: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 			<br>
@@ -23,8 +23,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">2.</font></td>
-		<td><center><a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><img src="https://img-blog.csdnimg.cn/img_convert/127a037eb210b12e714618610e1b9697.png" alt="BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil" width="426" height="240" />
-</a></center></td>
+		<td><center><a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><img src="https://img-blog.csdnimg.cn/img_convert/127a037eb210b12e714618610e1b9697.png" alt="BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>BtleJuice</b>: the Bluetooth Smart Man In The Middle Framework 
 			<br>
@@ -38,7 +37,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">3.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457995/video_to_markdown/images/youtube--VHJfd9h6G2s-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Damien virtualabs Cauquil - You had better secure your BLE devices" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center">You had better secure your BLE devices 
 			<br>
@@ -51,7 +50,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">4.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/D5FIIqLWtYw?list=PLKV_4pHyTj0GUtdyOZotJJFwsjHbBT83l" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/embed/D5FIIqLWtYw?list=PLKV_4pHyTj0GUtdyOZotJJFwsjHbBT83l" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458076/video_to_markdown/images/youtube--D5FIIqLWtYw-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BLEEDINGBIT - Takeover of Aruba Access Point Access Point 325" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>BLEEDINGBIT </b>- Takeover of Aruba Access Point Access Point 325 
 			<br>
@@ -59,12 +58,12 @@
 			<p align="left" ><font size =2>In this demo, Armis will demonstrate the takeover of an Aruba Access Point Access Point 325 using a TI cc2540 BLE chip. For more information, please visit https://armis.com/bleedingbit.</font></p>
 			<p align="center"><i><img width="30" height="30" src="image/armis.jpg"> BLEEDINGBIT RCE vulnerability (CVE-2018-16986) </i>
 			<br>
-			[<b><a href="https://www.armis.com/bleedingbit/" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/02_BLEEDINGBIT" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=D5FIIqLWtYw&list=PLKV_4pHyTj0GUtdyOZotJJFwsjHbBT83l&index=2" target="_blank"><b>Video</b></a>]</p>
+			[<b><a href="https://www.armis.com/bleedingbit/" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/02_BLEEDINGBIT" target="_blank"><b>Project Page</b></a> | <a href="https://www.youtube.com/watch?v=D5FIIqLWtYw&list=PLKV_4pHyTj0GUtdyOZotJJFwsjHbBT83l&index=2" target="_blank"><b>Video</b></a>]</p>
 		</td>
 	</tr>
 	<tr>
 		<td><font size="4">5.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/oty1yTdsEXs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/embed/oty1yTdsEXs" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458144/video_to_markdown/images/youtube--oty1yTdsEXs-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="SweynTooth: Unleashing Mayhem over Bluetooth Low Energy" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>SweynTooth</b>: Unleashing Mayhem over Bluetooth Low Energy 
 			<br>
@@ -78,7 +77,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">6.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/wIWZaSZsRc8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/embed/wIWZaSZsRc8" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458197/video_to_markdown/images/youtube--wIWZaSZsRc8-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BLESA: Spoofing Attacks against Reconnections in Bluetooth Low Energy" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>BLESA</b>:  Spoofing Attacks against Reconnections in Bluetooth Low Energy 			
 		<br>
@@ -92,7 +91,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">7.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/uKqdb4lF0XU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/embed/uKqdb4lF0XU" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458318/video_to_markdown/images/youtube--uKqdb4lF0XU-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Gattacking Bluetooth Smart Devices - Introducing a New BLE Proxy Tool" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>Gattacking Bluetooth Smart Devices</b> - Introducing a New BLE Proxy Tool 
 			<br>
@@ -105,7 +104,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">8.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/iH7VPUNz-dU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/embed/iH7VPUNz-dU" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458374/video_to_markdown/images/youtube--iH7VPUNz-dU-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BLEKey: Breaking Access Controls With BLEKey" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>BLEKey</b>: Breaking Access Controls With BLEKey 
 			<br>
@@ -119,7 +118,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">9.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/s79CG2Os0Nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/embed/s79CG2Os0Nc" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458432/video_to_markdown/images/youtube--s79CG2Os0Nc-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="MASHaBLE: Mobile Applications of Secret Handshakes Over Bluetooth LE" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>MASHaBLE</b>: Mobile Applications of Secret Handshakes Over Bluetooth LE 
 			<br>
@@ -133,7 +132,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">10.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/X2ARyfjzxhY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/embed/X2ARyfjzxhY" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458478/video_to_markdown/images/youtube--X2ARyfjzxhY-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Safe Mode Wireless Village - The Basics Of Breaking BLE v3" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>Safe Mode Wireless Village</b> - The Basics Of Breaking BLE v3 
 			<br>
@@ -161,7 +160,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">12.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/gCQ3iSy6R-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/embed/gCQ3iSy6R-U" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458589/video_to_markdown/images/youtube--gCQ3iSy6R-U-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Bluetooth Reverse Engineering: Tools and Techniques" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center">Bluetooth Reverse Engineering: Tools and Techniques
 			<br>
@@ -189,8 +188,6 @@ https://www.youtube.com/watch?v=WWQTlogqF1I
 
    Hack.lu 2016 BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil
 https://www.youtube.com/watch?v=G08fh5Sa7TU
-
-[![BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil](https://res.cloudinary.com/marcomontalbano/image/upload/v1601454786/video_to_markdown/images/youtube--G08fh5Sa7TU-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=G08fh5Sa7TU "BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil")
 
 1. MASHaBLE: Mobile Applications of Secret Handshakes Over Bluetooth LE
 https://www.youtube.com/watch?v=s79CG2Os0Nc
