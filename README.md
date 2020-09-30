@@ -21,7 +21,6 @@
 			</p>
 		</td>
 	</tr>
-	<br>
 	<tr>
 		<td><font size="4">2.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/G08fh5Sa7TU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -36,7 +35,6 @@
 			[<a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><b>Video</b> | </a><a href="https://speakerdeck.com/virtualabs/btlejuice-the-bluetooth-smart-mitm-framework?slide=40" target="_blank"><b>PDF</b></a> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a>]</p>
 		</td>
 	</tr>
-	<br>
 	<tr>
 		<td><font size="4">3.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -50,7 +48,6 @@
 			[<b><a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a> | <a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><b>Video</b></a>]</p>
 		</td>
 	</tr>
-	<br>
 	<tr>
 		<td><font size="4">4.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/D5FIIqLWtYw?list=PLKV_4pHyTj0GUtdyOZotJJFwsjHbBT83l" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -64,7 +61,6 @@
 			[<b><a href="https://www.armis.com/bleedingbit/" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/02_BLEEDINGBIT" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=D5FIIqLWtYw&list=PLKV_4pHyTj0GUtdyOZotJJFwsjHbBT83l&index=2" target="_blank"><b>Video</b></a>]</p>
 		</td>
 	</tr>
-	<br>
 	<tr>
 		<td><font size="4">5.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/oty1yTdsEXs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -79,7 +75,6 @@
 			[<b><a href="https://www.usenix.org/conference/atc20/presentation/garbelini" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/03_SweynTooth" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=oty1yTdsEXs" target="_blank"><b>Video</b></a>]</p>
 		</td>
 	</tr>
-	<br>
 	<tr>
 		<td><font size="4">6.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/wIWZaSZsRc8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -94,7 +89,6 @@
 			[<b><a href="https://www.usenix.org/conference/woot20/presentation/wu" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/mhaiyang.github.io/blob/master/ICME2020_MCERN/index.html" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=wIWZaSZsRc8" target="_blank"><b>Video</b></a>]</p>
 		</td>
 	</tr>
-	<br>
 	<tr>
 		<td><font size="4">7.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/uKqdb4lF0XU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -108,7 +102,6 @@
 			</p>
 		</td>
 	</tr>
-	<br>
 	<tr>
 		<td><font size="4">8.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/iH7VPUNz-dU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -123,7 +116,6 @@
 			[<b><a href="" target="_blank">PDF</a></b> | <a href=" " target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/embed/iH7VPUNz-dU" target="_blank"><b>Video</b></a>]</p>
 		</td>
 	</tr>
-	<br>
 	<tr>
 		<td><font size="4">9.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/s79CG2Os0Nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -138,7 +130,6 @@
 			[<b><a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Michalevsky-MASHABLE-Mobile-Applications-Of-Secret-Handshakes-Over-Bluetooth-LE-wp.pdf" target="_blank">PDF</a></b> | <a href="https://www.blackhat.com/asia-17/briefings.html#mashable-mobile-applications-of-secret-handshakes-over-bluetooth-le" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=s79CG2Os0Nc" target="_blank"><b>Video</b></a>]</p>
 		</td>
 	</tr>
-			<br>
 	<tr>
 		<td><font size="4">10.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/X2ARyfjzxhY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -153,7 +144,6 @@
 			[<b><a href=" " target="_blank">PDF</a></b> | <a href=" " target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=X2ARyfjzxhY" target="_blank"><b>Video</b></a>]</p>
 		</td>
 	</tr>
-	<br>
 	<tr>
 		<td><font size="4">11.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/s79CG2Os0Nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -168,7 +158,6 @@
 			[<b><a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Michalevsky-MASHABLE-Mobile-Applications-Of-Secret-Handshakes-Over-Bluetooth-LE-wp.pdf" target="_blank">PDF</a></b> | <a href="https://www.blackhat.com/asia-17/briefings.html#mashable-mobile-applications-of-secret-handshakes-over-bluetooth-le" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=s79CG2Os0Nc" target="_blank"><b>Video</b></a>]</p>
 		</td>
 	</tr>
-	<br>
 	<tr>
 		<td><font size="4">12.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/gCQ3iSy6R-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
