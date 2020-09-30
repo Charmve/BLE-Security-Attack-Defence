@@ -1,11 +1,43 @@
 # Bluetooth LE-Security: method, tools and stack
 
+<table>
+	<tbody>
+		<tr>
+			<td><font size="4">1.</font></td>
+			<td><center><img width="300" height="240" src="glass_teaser.png"></center></td>
+			<td><font size="4">&nbspDon't Hit Me! Glass Detection in Real-World Scenes
+				<br>
+				<b>&nbspHaiyang Mei</b>, Xin Yang, Yang Wang, Yuanyuan Liu, Shengfeng He,
+				<br>
+				&nbspQiang Zhang, Xiaopeng Wei, Rynson W.H. Lau
+				<br>
+				&nbsp<i>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2020</i>
+				<br>
+				&nbsp[<b><a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Mei_Dont_Hit_Me_Glass_Detection_in_Real-World_Scenes_CVPR_2020_paper.pdf" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/mhaiyang.github.io/blob/master/CVPR2020_GDNet/index.html" target="_blank"><b>Project Page</b></a>]
+			</font></td>
+		</tr>
+		<br>
+		<tr>
+			<td><font size="4">2.</font></td>
+			<td><center><img width="300" height="240" src="icme_teaser.jpg"></center></td>
+			<td><font size="4">&nbspMulti-Context And Enhanced Reconstruction Network For Single Image Super Resolution
+				<br>
+				&nbspJiqing Zhang, Chengjiang Long, Yuxin Wang, Xin Yang, <b>Haiyang Mei</b>, and Baocai Yin
+				<br>
+				&nbsp<i>IEEE International Conference on Multimedia and Expo (<b>ICME</b>) 2020</i>
+				<br>
+				&nbsp[<b><a href="https://ieeexplore.ieee.org/document/9102868" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/mhaiyang.github.io/blob/master/ICME2020_MCERN/index.html" target="_blank"><b>Project Page</b></a>]
+			</font></td>
+		</tr>
+	 </table>
+	</tbody>
+
 <h2>Bluetooth LE Vulnerability &nbsp<a href="https://charmve.blog.csdn.net/" target="_blank">[Google Scholar]</a></h2>
 	<table>
 	<tbody>
 		<tr>
 			<td><font size="4">1.</font></td>
-			<td><center><img width="300" height="240" src="glass_teaser.png"><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
 			<td><font size="4">&nbsp; <b>BlueBorne</b>: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 				<br>
 				&nbsp; <b>Ben Seri</b> & <b>Gregory Vishnepolsky </b>
