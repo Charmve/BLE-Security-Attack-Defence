@@ -7,7 +7,6 @@
 ## Bluetooth LE Vulnerability
 
 <table>
-<tbody>
 	<tr>
 		<td><font size="4">1.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
@@ -185,15 +184,15 @@
 		</td>
 	</tr>
 </table>
-</tbody>
 <br>
 <br>
 
-
+<!--
 <div align="center">
     <a href="https://github.com/Charmve/"><img src="image.jpg"></a>
 </div>
 <br>
+--->
 
 0. BlueBorne - A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 https://www.youtube.com/watch?v=WWQTlogqF1I
