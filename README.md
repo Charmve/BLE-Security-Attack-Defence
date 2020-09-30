@@ -23,7 +23,8 @@
 	</tr>
 	<tr>
 		<td><font size="4">2.</font></td>
-		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/G08fh5Sa7TU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+		<td><center><a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><img src="https://img-blog.csdnimg.cn/img_convert/127a037eb210b12e714618610e1b9697.png" alt="BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil" width="256" height="128" />
+</a></center></td>
 		<td>
 			<p align="center"><b>BtleJuice</b>: the Bluetooth Smart Man In The Middle Framework 
 			<br>
