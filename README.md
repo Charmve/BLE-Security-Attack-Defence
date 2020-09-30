@@ -1,6 +1,6 @@
 # Bluetooth LE-Security: method, tools and stack
 
-
+<br>
 <p align="center"><img border=0 src="profile.jpg"></p>
 <br>
 
