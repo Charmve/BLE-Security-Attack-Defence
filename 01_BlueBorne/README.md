@@ -20,8 +20,8 @@ In addition a several detailed blog posts on the exploitation of these vulnerabi
 https://www.armis.com/blog/
 
 
-===============
-Dependencies:
+
+## Dependencies:
 
     pip2 packages: pybluez, pwn, scapy
     
