@@ -1,13 +1,12 @@
 # Bluetooth LE-Security: method, tools and stack
 
 <h2>Bluetooth LE Vulnerability &nbsp<a href="https://charmve.blog.csdn.net/" target="_blank">[Google Scholar]</a></h2>
-	<hr/>
 	<table>
 	<tbody>
 		<tr>
 			<td><font size="4">1.</font></td>
 			<td><center><img width="300" height="240" src="glass_teaser.png"><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
-			<td><font size="4">&nbsp; <b>BlueBorne</b> - A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
+			<td><font size="4">&nbsp; <b>BlueBorne</b>: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 				<br>
 				&nbsp; <b>Ben Seri</b> & <b>Gregory Vishnepolsky </b>
 				<br><br>
