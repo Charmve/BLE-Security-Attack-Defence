@@ -5,38 +5,180 @@
 	<table>
 	<tbody>
 		<tr>
-			<td><font size="4"><b>2020</b></font></td>
+			<font size="4"><b>2020</b></font> <br>
 		</tr>
 		<tr>
 			<td><font size="4">1.</font></td>
-			<td><center><img width="300" height="240" src="glass_teaser.png"></center></td>
-			<td><font size="4">&nbspDon't Hit Me! Glass Detection in Real-World Scenes
+			<td><center><img width="300" height="240" src="glass_teaser.png"><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; <b>BlueBorne</b> - A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 				<br>
-				<b>&nbspHaiyang Mei</b>, Xin Yang, Yang Wang, Yuanyuan Liu, Shengfeng He,
+				&nbsp; <b>Ben Seri</b> & <b>Gregory Vishnepolsky </b>
+				<br><br>
+				<p align="left" ><font size =2>In this talk we will present the ramifications of airborne attacks, which bypass all current security measures and provide hackers with a contagious attack, capable of jumping over "air-gapped" networks...</font></p>
+				&nbsp; <img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2017
 				<br>
-				&nbspQiang Zhang, Xiaopeng Wei, Rynson W.H. Lau
-				<br>
-				&nbsp<i>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2020</i>
-				<br>
-				&nbsp[<b><a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Mei_Dont_Hit_Me_Glass_Detection_in_Real-World_Scenes_CVPR_2020_paper.pdf" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/mhaiyang.github.io/blob/master/CVPR2020_GDNet/index.html" target="_blank"><b>Project Page</b></a>]
+				&nbsp; [<b><a href="https://www.armis.com/blueborne/" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/01_BlueBorne" target="_blank"><b>Project Page</b></a> |  <a href="https://www.youtube.com/watch?v=WWQTlogqF1I" target="_blank"><b>Video</b></a>]
 			</font></td>
 		</tr>
 		<br>
 		<tr>
 			<td><font size="4">2.</font></td>
-			<td><center><img width="300" height="240" src="icme_teaser.jpg"></center></td>
-			<td><font size="4">&nbspMulti-Context And Enhanced Reconstruction Network For Single Image Super Resolution
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/G08fh5Sa7TU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; <b>BtleJuice</b>: the Bluetooth Smart Man In The Middle Framework 
 				<br>
-				&nbspJiqing Zhang, Chengjiang Long, Yuxin Wang, Xin Yang, <b>Haiyang Mei</b>, and Baocai Yin
+				&nbsp; <b>Damiel Cauquil</b>
+				<p align="left" ><font size =2>A lot of Bluetooth Low Energy capable devices are spread since the last few years, offering a brand new way to compromise many “smart” objects: fitness wristbands, smart locks and padlocks and even healthcare devices. But this protocol poses some new challenges...</font>
+				</p>
+				&nbsp; <i><img width="30" height="30" src="image/DEFCON.jpg"> DefConference 2016 (<b>DEFCOON</b>) </i>
 				<br>
-				&nbsp<i>IEEE International Conference on Multimedia and Expo (<b>ICME</b>) 2020</i>
+				&nbsp[<a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><b>Video</b> | </a><a href="https://speakerdeck.com/virtualabs/btlejuice-the-bluetooth-smart-mitm-framework?slide=40" target="_blank"><b>PDF</b></a> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a> ]
+			</font></td>
+		</tr>
+		<br>
+		<tr>
+			<td><font size="4">3.</font></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/WWQTlogqF1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp;  You had better secure your BLE devices 
 				<br>
-				&nbsp[<b><a href="https://ieeexplore.ieee.org/document/9102868" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/mhaiyang.github.io/blob/master/ICME2020_MCERN/index.html" target="_blank"><b>Project Page</b></a>]
+				&nbsp; <b>Damiel Cauquil</b>
+				<p align="left" ><font size =2>Sniffing and attacking Bluetooth Low Energy devices has always been a real pain. Proprietary tools do the job but cannot be tuned to fit our offensive needs, while opensource tools work sometimes, ... <br></p>
+				&nbsp<i><img width="30" height="30" src="image/DEFCON.jpg"> DefConference 2018 (<b>DEFCOON26</b>) </i>
+				<br>
+				&nbsp[<b><a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a> | <a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><b>Video</b></a> ]
+			</font></td>
+		</tr>
+		<br>
+		<tr>
+			<td><font size="4">4.</font></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/D5FIIqLWtYw?list=PLKV_4pHyTj0GUtdyOZotJJFwsjHbBT83l" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; <b>BLEEDINGBIT </b>- Takeover of Aruba Access Point Access Point 325 
+				<br>
+				&nbsp; <b>Armis</b>
+				<p align="left" ><font size =2>In this demo, Armis will demonstrate the takeover of an Aruba Access Point Access Point 325 using a TI cc2540 BLE chip. For more information, please visit https://armis.com/bleedingbit.</font>
+				</p>
+				&nbsp; <i><img width="30" height="30" src="image/armis.jpg"> BLEEDINGBIT RCE vulnerability (CVE-2018-16986) </i>
+				<br>
+				&nbsp[<b><a href="https://www.armis.com/bleedingbit/" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/02_BLEEDINGBIT" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=D5FIIqLWtYw&list=PLKV_4pHyTj0GUtdyOZotJJFwsjHbBT83l&index=2" target="_blank"><b>Video</b></a>]
+			</font></td>
+		</tr>
+		<br>
+		<tr>
+			<td><font size="4">5.</font></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/oty1yTdsEXs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; <b>SweynTooth</b>: Unleashing Mayhem over Bluetooth Low Energy 
+				<br>
+				&nbsp; <b>Matheus E. Garbelini</b>
+				<p align="left" ><font size =2>The Bluetooth Low Energy (BLE) is a promising short-range communication technology for Internet-of-Things (IoT) with reduced energy consumption. Vendors implement BLE protocols in their manufactured devices compliant to Bluetooth Core Specification. Recently, several vulnerabilities were discovered in the BLE protocol ...</font>
+				</p>
+				&nbsp; <i><img width="30" height="30" src="image/USENIX.jpg"> <b>USENIX Security</b></i>
+				<br>
+				&nbsp[<b><a href="https://www.usenix.org/conference/atc20/presentation/garbelini" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/03_SweynTooth" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=oty1yTdsEXs" target="_blank"><b>Video</b></a>]
+			</font></td>
+		</tr>
+		<br>
+		<tr>
+			<td><font size="4">6.</font></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/wIWZaSZsRc8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; <b>BLESA</b>:  Spoofing Attacks against Reconnections in Bluetooth Low Energy 			
+			<br>
+				&nbsp; <b>Jianliang Wu, Yuhong Nan ..., Purdue University</b>
+				<p align="left" ><font size =2>In this paper, we analyze the security of the BLE link-layer, focusing on the scenario in which two previously-connected devices reconnect. Based on a formal analysis of the reconnection procedure defined by the BLE specification, we highlight two critical security weaknesses in the specification. As a result, even a device implementing the BLE protocol correctly may be vulnerable to spoofing attacks...</font>
+				</p>
+				&nbsp; <i><img width="30" height="30" src="image/USENIX.jpg"> <b>WOOT '20</b></i>
+				<br>
+				&nbsp[<b><a href="https://www.usenix.org/conference/woot20/presentation/wu" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/mhaiyang.github.io/blob/master/ICME2020_MCERN/index.html" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=wIWZaSZsRc8" target="_blank"><b>Video</b></a>]
+			</font></td>
+		</tr>
+		<br>
+		<tr>
+			<td><font size="4">7.</font></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/uKqdb4lF0XU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; <b>Gattacking Bluetooth Smart Devices</b> - Introducing a New BLE Proxy Tool 
+				<br>
+				&nbsp; <b>Slawomir Jasek</b>
+				<p align="left" ><font size =2>Using a few simple tricks, we can assure the victim will connect to our impersonator device instead of the original one, and then just proxy the traffic - without consent of the mobile app or device. And here it finally becomes interesting - just imagine how many attacks you might be able to perform with the possibility to actively intercept the BLE communication....</font></p>
+				&nbsp; <i><img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2016 (<b>Black Hat</b>) </i>
+				<br>
+			</font></td>
+		</tr>
+		<br>
+		<tr>
+			<td><font size="4">8.</font></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/iH7VPUNz-dU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; <b>BLEKey</b>: Breaking Access Controls With BLEKey 
+				<br>
+				&nbsp; <b> Eric Evenchick</b>  &  <b>Mark Baseggio</b>
+				<p align="left" ><font size =2>RFID access controls are broken. In this talk, we will demonstrate how to break into buildings using open-source hardware we are releasing.Over the years, we have seen research pointing to deficiencies in every aspect of access control systems: the cards...</font>
+				</p>
+				&nbsp; <i><img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2016 (<b>Black Hat</b>) </i>
+				<br>
+				&nbsp; [<b><a href="" target="_blank">PDF</a></b> | <a href=" " target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/embed/iH7VPUNz-dU" target="_blank"><b>Video</b></a>]
+			</font></td>
+		</tr>
+		<br>
+		<tr>
+			<td><font size="4">9.</font></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/s79CG2Os0Nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; <b>MASHaBLE</b>: Mobile Applications of Secret Handshakes Over Bluetooth LE 
+				<br>
+				&nbsp; <b>Yan Michalevsky</b>
+				<p align="left" ><font size =2>n this talk, we present new applications for cryptographic secret handshakes between mobile devices on top of Bluetooth Low-Energy (LE). Secret handshakes enable mutual authentication between parties that did not meet before (and therefore don't trust each other) but are both associated with a virtual secret group or community...</font>
+				</p>
+				&nbsp; <i><img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2016 (<b>Black Hat</b>) </i>
+				<br>
+				&nbsp[<b><a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Michalevsky-MASHABLE-Mobile-Applications-Of-Secret-Handshakes-Over-Bluetooth-LE-wp.pdf" target="_blank">PDF</a></b> | <a href="https://www.blackhat.com/asia-17/briefings.html#mashable-mobile-applications-of-secret-handshakes-over-bluetooth-le" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=s79CG2Os0Nc" target="_blank"><b>Video</b></a>]
+			</font></td>
+		</tr>
+				<br>
+		<tr>
+			<td><font size="4">10.</font></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/iH7VPUNz-dU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; <b>BLEKey</b>: Breaking Access Controls With BLEKey 
+				<br>
+				&nbsp; <b> Eric Evenchick</b>  &  <b>Mark Baseggio</b>
+				<p align="left" ><font size =2>RFID access controls are broken. In this talk, we will demonstrate how to break into buildings using open-source hardware we are releasing.Over the years, we have seen research pointing to deficiencies in every aspect of access control systems: the cards...</font>
+				</p>
+				&nbsp; <i><img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2016 (<b>Black Hat</b>) </i>
+				<br>
+				&nbsp; [<b><a href=" " target="_blank">PDF</a></b> | <a href=" " target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/embed/iH7VPUNz-dU" target="_blank"><b>Video</b></a>]
+			</font></td>
+		</tr>
+		<br>
+		<tr>
+			<td><font size="4">11.</font></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/s79CG2Os0Nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; <b>MASHaBLE</b>: Mobile Applications of Secret Handshakes Over Bluetooth LE 
+				<br>
+				&nbsp; <b>Yan Michalevsky</b>
+				<p align="left" ><font size =2>In this talk, we present new applications for cryptographic secret handshakes between mobile devices on top of Bluetooth Low-Energy (LE). Secret handshakes enable mutual authentication between parties that did not meet before (and therefore don't trust each other) but are both associated with a virtual secret group or community...</font>
+				</p>
+				&nbsp; <i><img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2016 (<b>Black Hat</b>) </i>
+				<br>
+				&nbsp[<b><a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Michalevsky-MASHABLE-Mobile-Applications-Of-Secret-Handshakes-Over-Bluetooth-LE-wp.pdf" target="_blank">PDF</a></b> | <a href="https://www.blackhat.com/asia-17/briefings.html#mashable-mobile-applications-of-secret-handshakes-over-bluetooth-le" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=s79CG2Os0Nc" target="_blank"><b>Video</b></a>]
+			</font></td>
+		</tr>
+		<br>
+		<tr>
+			<td><font size="4">12.</font></td>
+			<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/gCQ3iSy6R-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
+			<td><font size="4">&nbsp; Bluetooth Reverse Engineering: Tools and Techniques
+				<br>
+				&nbsp; <b>Mike Ryan, Founder</b>, ICE9 Consulting
+				<p align="left" ><font size =2>With the continuing growth of IoT, more and more devices are entering the market with Bluetooth. This talk will shed some light on how these devices use Bluetooth and will cover reverse engineering techniques that in many cases can be accomplished with hardware you already have! Whether you're a Bluetooth newbie or a seasoned pro, you’ll learn something from this talk....</font>
+				</p>
+				&nbsp; <i><img width="30" height="30" src="image/RSA_Conference.jpg"> RSA Conference</i>
+				<br>
+				&nbsp; [<b><a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Michalevsky-MASHABLE-Mobile-Applications-Of-Secret-Handshakes-Over-Bluetooth-LE-wp.pdf" target="_blank">PDF</a></b> | <a href="https://www.blackhat.com/asia-17/briefings.html#mashable-mobile-applications-of-secret-handshakes-over-bluetooth-le" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=gCQ3iSy6R-U" target="_blank"><b>Video</b></a>]
 			</font></td>
 		</tr>
 	</table>
 	</tbody>
 <br>
+
+DEF CON Safe Mode Wireless Village - FreqyXin - The Basics Of Breaking BLE v3
+
+
+Gattacking Bluetooth Smart Devices - Introducing a New BLE Proxy Tool
 
 <div align="center">
     <a href="https://github.com/Charmve/"><img src="image.jpg"></a>
