@@ -4,6 +4,87 @@
 <p align="center"><img border=0 src="profile.jpg"></p>
 <br>
 
+```
+BLE-Security-Attack&Defence
+ |-- BLE Vulnerability TOP5
+ |  |-- BlueBorne
+ |  |  |-- android
+ |  |  |-- l2cap_infra
+ |  |  |-- linux-bluez
+ |  |  |-- nRF24_BDADDR_Sniffer
+ |  |-- BleedingBit
+ |  |  |-- White Paper
+ |  |  |-- Information
+ |  |-- SweynTooth
+ |  |  |-- workflows
+ |  |  |-- captures
+ |  |  |-- docs
+ |  |  |-- drivers
+ |  |  |-- extras
+ |  |  |-- libs
+ |  |  |-- logs
+ |  |  |-- code
+ |  |-- BtleJuice
+ |  |  |-- bin
+ |  |  |-- doc/images
+ |  |  |-- resources
+ |  |  |-- views
+ |  |-- BLE-CTF
+ |  |  |-- docs
+ |  |  |-- main
+ |  |  |-- static
+ |-- ble-stack
+ |  |-- Mynewt-Nimble
+ |  |  |-- Overview
+ |  |  |-- Supported hardware
+ |  |  |-- Browsing
+ |  |  |-- Sample Applications
+ |  |-- nRF5_SDK_15.0.0_a53641a
+ |  |-- PyBluez
+ |  |  |-- Platform Support
+ |  |  |-- Python Version Support
+ |  |  |-- Examples
+ |  |-- LightBlue
+ |  |  |-- Requirements
+ |  |  |-- Installation
+ |-- cap - capture package
+ |  |-- CrackLE
+ |  |  |-- doc
+ |  |  |-- tests
+ |  |-- TI-BLTE2Pcap
+ |  |-- blefuzz_V21
+ |  |  |-- blefuzzV21.sh
+ |  |-- Fuzzing Bluetooth
+ |-- image
+ |-- tools - hardware&sofrware
+ |  |-- Ubertooth
+ |  |  |-- firmware
+ |  |  |-- hardware
+ |  |  |-- host
+ |  |  |-- tools
+ |  |  |-- web
+ |  |-- BladeRF
+ |  |  |-- debian
+ |  |  |-- doc
+ |  |  |-- firmware_common
+ |  |  |-- fpga_common
+ |  |  |-- fx3_firmware
+ |  |  |-- hdl
+ |  |  |-- host
+ |  |  |-- legal
+ |  |-- HackRF
+ |  |  |-- doc
+ |  |  |-- firmware
+ |  |  |-- hardware
+ |  |  |-- host
+ |  |  |-- tools
+ |  |-- Adafruit-BluefruitLE
+ |  |  |-- Adafruit_BluefruitLE
+ |  |  |-- examples
+ ...
+```
+<br>
+
 ## Bluetooth LE Vulnerability
 
 <table>
@@ -27,12 +108,12 @@
 		<td>
 			<p align="center"><b>BtleJuice</b>: the Bluetooth Smart Man In The Middle Framework 
 			<br>
-			<b>Damiel Cauquil</p>
+			<b>Damiel Cauquil</p></b>
 			<p align="left" ><font size =2>A lot of Bluetooth Low Energy capable devices are spread since the last few years, offering a brand new way to compromise many “smart” objects: fitness wristbands, smart locks and padlocks and even healthcare devices. But this protocol poses some new challenges...</font>
 			</p>
 			<p align="center"><i><img width="30" height="30" src="image/DEFCON.jpg"> DefConference 2016 (<b>DEFCOON</b>) </i>
 			<br>
-			[<a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><b>Video</b> | </a><a href="https://speakerdeck.com/virtualabs/btlejuice-the-bluetooth-smart-mitm-framework?slide=40" target="_blank"><b>PDF</b></a> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a>]</p>
+			[<a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><b>Video</b></a> | <a href="https://speakerdeck.com/virtualabs/btlejuice-the-bluetooth-smart-mitm-framework?slide=40" target="_blank"><b>PDF</b></a> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a>]</p>
 		</td>
 	</tr>
 	<tr>
