@@ -85,7 +85,7 @@ BLE-Security-Attack&Defence
 ```
 <br>
 
-## Bluetooth LE Vulnerability
+## Bluetooth LE Vulnerabilities
 
 <table>
 	<tr>
