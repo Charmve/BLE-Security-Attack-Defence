@@ -23,11 +23,14 @@ https://www.armis.com/blog/
 
 ## Dependencies:
 
-    pip2 packages: pybluez, pwn, scapy
-    
-    - sudo apt-get install libbluetooth-dev
-    - sudo pip2 install pybluez pwn scapy
+pip2 packages: pybluez, pwn, scapy
+```
+- sudo apt-get install libbluetooth-dev
+- sudo pip2 install pybluez pwn scapy
+```
 
-    To run the exploits, the root of this repository needs to be in the PYTHONPATH:
-    
-    export PYTHONPATH=$PYTHONPATH:<repo-path>
+To run the exploits, the root of this repository needs to be in the PYTHONPATH:
+
+```
+export PYTHONPATH=$PYTHONPATH:<repo-path>
+```
