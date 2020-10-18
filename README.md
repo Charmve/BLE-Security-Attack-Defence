@@ -8,79 +8,26 @@
 BLE-Security-Attack&Defence
  |-- BLE Vulnerability TOP5
  |  |-- BlueBorne
- |  |  |-- android
- |  |  |-- l2cap_infra
- |  |  |-- linux-bluez
- |  |  |-- nRF24_BDADDR_Sniffer
  |  |-- BleedingBit
- |  |  |-- White Paper
- |  |  |-- Information
  |  |-- SweynTooth
- |  |  |-- workflows
- |  |  |-- captures
- |  |  |-- docs
- |  |  |-- drivers
- |  |  |-- extras
- |  |  |-- libs
- |  |  |-- logs
- |  |  |-- code
  |  |-- BtleJuice
- |  |  |-- bin
- |  |  |-- doc/images
- |  |  |-- resources
- |  |  |-- views
  |  |-- BLE-CTF
- |  |  |-- docs
- |  |  |-- main
- |  |  |-- static
  |-- ble-stack
  |  |-- Mynewt-Nimble
- |  |  |-- Overview
- |  |  |-- Supported hardware
- |  |  |-- Browsing
- |  |  |-- Sample Applications
  |  |-- nRF5_SDK_15.0.0_a53641a
  |  |-- PyBluez
- |  |  |-- Platform Support
- |  |  |-- Python Version Support
- |  |  |-- Examples
  |  |-- LightBlue
- |  |  |-- Requirements
- |  |  |-- Installation
  |-- cap - capture package
  |  |-- CrackLE
- |  |  |-- doc
- |  |  |-- tests
  |  |-- TI-BLTE2Pcap
  |  |-- blefuzz_V21
- |  |  |-- blefuzzV21.sh
  |  |-- Fuzzing Bluetooth
  |-- image
  |-- tools - hardware&sofrware
  |  |-- Ubertooth
- |  |  |-- firmware
- |  |  |-- hardware
- |  |  |-- host
- |  |  |-- tools
- |  |  |-- web
  |  |-- BladeRF
- |  |  |-- debian
- |  |  |-- doc
- |  |  |-- firmware_common
- |  |  |-- fpga_common
- |  |  |-- fx3_firmware
- |  |  |-- hdl
- |  |  |-- host
- |  |  |-- legal
  |  |-- HackRF
- |  |  |-- doc
- |  |  |-- firmware
- |  |  |-- hardware
- |  |  |-- host
- |  |  |-- tools
  |  |-- Adafruit-BluefruitLE
- |  |  |-- Adafruit_BluefruitLE
- |  |  |-- examples
  ...
 ```
 <br>
