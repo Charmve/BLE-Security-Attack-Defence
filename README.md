@@ -100,7 +100,7 @@ BLE-Security-Attack&Defence
 			</p>
 			<p align="center"><i><img width="30" height="30" src="image/USENIX.jpg"> <b>USENIX Security</b></i>
 			<br>
-			[<b><a href="https://www.usenix.org/conference/atc20/presentation/garbelini" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/03_SweynTooth" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=oty1yTdsEXs" target="_blank"><b>Video</b></a>]</p>
+			[<b><a href="https://www.usenix.org/conference/atc20/presentation/garbelini" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/03_SweynTooth" target="_blank"><b>Code</b></a> | <a href="https://asset-group.github.io/disclosures/sweyntooth/" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=oty1yTdsEXs" target="_blank"><b>Video</b></a>]</p>
 		</td>
 	</tr>
 	<tr>
@@ -203,6 +203,9 @@ BLE-Security-Attack&Defence
 </table>
 <br>
 <br>
+
+<a href="https://asset-group.github.io/disclosures/sweyntooth/" target="_blank"># MORE</a>
+
 
 <!--
 <div align="center">
