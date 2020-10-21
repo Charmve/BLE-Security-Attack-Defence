@@ -204,7 +204,7 @@ BLE-Security-Attack&Defence
 <br>
 <br>
 
-<a href="https://asset-group.github.io/disclosures/sweyntooth/" target="_blank"># MORE</a>
+# <a href="https://asset-group.github.io/disclosures/sweyntooth/" target="_blank">MORE</a>
 
 
 <!--
