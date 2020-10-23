@@ -4,6 +4,15 @@
 <p align="center"><img border=0 src="profile.jpg"></p>
 <br>
 
+
+## ✨ News! ✨
+
+<ul>
+	<li><img width="30" height="30" src="image/BlackHat.jpg">&nbsp;&nbsp;<font size="4"><b>2020.10.13:</b> A heap-based type confusion affecting Linux kernel 4.8 and higher was discovered in ``net/bluetooth/l2cap_core.c.`` by <a href="https://github.com/google/security-research" target="_blank">Google Security Research</a> !</font></li>
+	<li><img width="30" height="30" src="https://static.leiphone.com/uploads/new/images/20200326/5e7c5dc11daa1.png?imageView2/2/w/740">&nbsp;&nbsp;<font size="4"><b>2020.03.26:</b> A memory corruption issue was addressed with improved input validation by <a href="https://www.leiphone.com/news/202003/gENc7OITqoxKchYo.html" target="_blank">Qihoo 360 Alpha Lab</a> !</font></li>
+</ul>
+<br>
+
 ## Table of Content
 ```
 BLE-Security-Attack&Defence
@@ -41,13 +50,6 @@ BLE Vulnerability TOP5
 - <a href="./05_BLE-CTF" target="_blank">BLE-CTF</a>
 <br>
 
-## ✨ News! ✨
-
-<ul>
-	<li><img width="30" height="30" src="image/BlackHat.jpg">&nbsp;&nbsp;<font size="4"><b>2020.10.13:</b> A heap-based type confusion affecting Linux kernel 4.8 and higher was discovered in ``net/bluetooth/l2cap_core.c.`` by <a href="https://github.com/google/security-research" target="_blank">Google Security Research</a> !</font></li>
-	<li><img width="30" height="30" src="https://static.leiphone.com/uploads/new/images/20200326/5e7c5dc11daa1.png?imageView2/2/w/740">&nbsp;&nbsp;<font size="4"><b>2020.03.26:</b> A memory corruption issue was addressed with improved input validation by <a href="https://www.leiphone.com/news/202003/gENc7OITqoxKchYo.html" target="_blank">Qihoo 360 Alpha Lab</a> !</font></li>
-</ul>
-<br>
 
 ## Bluetooth LE Vulnerabilities
 
@@ -56,7 +58,7 @@ BLE Vulnerability TOP5
 		<td><font size="4">1.</font></td>
 		<td><center><a href="https://www.youtube.com/watch?v=WWQTlogqF1I" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457791/video_to_markdown/images/youtube--WWQTlogqF1I-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BlueBorne: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device" width="426" height="240" /></a></center></td>
 		<td>
-			<p align="center"><b>BlueBorne</b>: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
+			<p align="center">## <b>BlueBorne</b>: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 			<br>
 			<b>Ben Seri</b> & <b>Gregory Vishnepolsky </b></p>
 			<p align="left"><font size =2>In this talk we will present the ramifications of airborne attacks, which bypass all current security measures and provide hackers with a contagious attack, capable of jumping over "air-gapped" networks...</font></p>
@@ -70,7 +72,7 @@ BLE Vulnerability TOP5
 		<td><font size="4">2.</font></td>
 		<td><center><a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><img src="https://img-blog.csdnimg.cn/img_convert/127a037eb210b12e714618610e1b9697.png" alt="BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil" width="426" height="240" /></a></center></td>
 		<td>
-			<p align="center"><b>BtleJuice</b>: the Bluetooth Smart Man In The Middle Framework 
+			<p align="center">## <b>BtleJuice</b>: the Bluetooth Smart Man In The Middle Framework 
 			<br>
 			<b>Damiel Cauquil</p></b>
 			<p align="left" ><font size =2>A lot of Bluetooth Low Energy capable devices are spread since the last few years, offering a brand new way to compromise many “smart” objects: fitness wristbands, smart locks and padlocks and even healthcare devices. But this protocol poses some new challenges...</font>
@@ -84,7 +86,7 @@ BLE Vulnerability TOP5
 		<td><font size="4">3.</font></td>
 		<td><center><a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457995/video_to_markdown/images/youtube--VHJfd9h6G2s-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Damien virtualabs Cauquil - You had better secure your BLE devices" width="426" height="240" /></a></center></td>
 		<td>
-			<p align="center">You had better secure your BLE devices 
+			<p align="center">## You had better secure your BLE devices 
 			<br>
 			<b>Damiel Cauquil</b> </p>
 			<p align="left"><font size =2>Sniffing and attacking Bluetooth Low Energy devices has always been a real pain. Proprietary tools do the job but cannot be tuned to fit our offensive needs, while opensource tools work sometimes, ... <br></p>
