@@ -1,4 +1,4 @@
-# Bluetooth LE-Security: method, tools and stack
+# Bluetooth LE-Security: Method, Tools and Stack
 
 <br>
 <p align="center"><img border=0 src="profile.jpg"></p>
