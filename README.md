@@ -39,6 +39,7 @@ BLE Vulnerability TOP5
 - <a href="./03_SweynTooth" target="_blank">SweynTooth</a>
 - <a href="./04_BtleJuice" target="_blank">BtleJuice</a>
 - <a href="./05_BLE-CTF" target="_blank">BLE-CTF</a>
+<br>
 
 ## ✨ News! ✨
 
@@ -148,6 +149,20 @@ BLE Vulnerability TOP5
 	</tr>
 	<tr>
 		<td><font size="4">8.</font></td>
+		<td><center><a href="https://www.youtube.com/embed/fASGU7Og5_4" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458374/video_to_markdown/images/youtube--fASGU7Og5_4-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BIAS: Bluetooth Impersonation AttackS" width="426" height="240" /></a></center></td>
+		<td>
+			<p align="center"><b>BIAS</b>: Bluetooth Impersonation AttackS
+			<br>
+			<b> Daniele Antonioli</b>, <b>Nils Ole Tippenhauer</b> & <b>Kasper Rasmussen</b></p>
+			<p align="left" ><font size =2>The Bluetooth standard provides authentication mechanisms based on a long term pairing key, which are designed to protect against impersonation attacks. The BIAS attacks from <a href="https://francozappa.github.io/publication/bias/paper.pdf" target="_blank">our new paper</a> demonstrate that those mechanisms are broken, and that an attacker can exploit them to impersonate any Bluetooth master or slave device. Our attacks are standard-compliant, and can be combined with other attacks, including the <a href="https://knobattack.com/" target="_blank">KNOB attack</a>. In the paper, we also describe a low cost implementation of the attacks and our evaluation results on 30 unique Bluetooth devices using 28 unique Bluetooth chips.</font>
+			</p>
+			<p align="center"><i>📑 IEEE Symposium on Security and Privacy</i>
+			<br>
+			[<b><a href="https://francozappa.github.io/publication/bias/paper.pdf" target="_blank">PDF</a></b> | <a href="https://francozappa.github.io/publication/bias/" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=fASGU7Og5_4&feature=emb_logo" target="_blank"><b>Video</b></a> | <a href="https://github.com/francozappa/bias" target="_blank"><b>PoC</b></a>]</p>
+		</td>
+	</tr>
+	<tr>
+		<td><font size="4">9.</font></td>
 		<td><center><a href="https://www.youtube.com/embed/iH7VPUNz-dU" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458374/video_to_markdown/images/youtube--iH7VPUNz-dU-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BLEKey: Breaking Access Controls With BLEKey" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>BLEKey</b>: Breaking Access Controls With BLEKey 
@@ -161,7 +176,7 @@ BLE Vulnerability TOP5
 		</td>
 	</tr>
 	<tr>
-		<td><font size="4">9.</font></td>
+		<td><font size="4">10.</font></td>
 		<td><center><a href="https://www.youtube.com/embed/s79CG2Os0Nc" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458432/video_to_markdown/images/youtube--s79CG2Os0Nc-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="MASHaBLE: Mobile Applications of Secret Handshakes Over Bluetooth LE" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>MASHaBLE</b>: Mobile Applications of Secret Handshakes Over Bluetooth LE 
@@ -175,7 +190,7 @@ BLE Vulnerability TOP5
 		</td>
 	</tr>
 	<tr>
-		<td><font size="4">10.</font></td>
+		<td><font size="4">11.</font></td>
 		<td><center><a href="https://www.youtube.com/embed/X2ARyfjzxhY" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458478/video_to_markdown/images/youtube--X2ARyfjzxhY-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Safe Mode Wireless Village - The Basics Of Breaking BLE v3" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>Safe Mode Wireless Village</b> - The Basics Of Breaking BLE v3 
@@ -189,7 +204,7 @@ BLE Vulnerability TOP5
 		</td>
 	</tr>
 	<tr>
-		<td><font size="4">11.</font></td>
+		<td><font size="4">12.</font></td>
 		<td><center><iframe width="320" height="180" src="https://www.youtube.com/embed/s79CG2Os0Nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></td>
 		<td>
 			<p align="center"><b>MASHaBLE</b>: Mobile Applications of Secret Handshakes Over Bluetooth LE 
@@ -203,7 +218,7 @@ BLE Vulnerability TOP5
 		</td>
 	</tr>
 	<tr>
-		<td><font size="4">12.</font></td>
+		<td><font size="4">13.</font></td>
 		<td><center><a href="https://www.youtube.com/embed/gCQ3iSy6R-U" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458589/video_to_markdown/images/youtube--gCQ3iSy6R-U-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Bluetooth Reverse Engineering: Tools and Techniques" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center">Bluetooth Reverse Engineering: Tools and Techniques
@@ -290,9 +305,15 @@ https://www.youtube.com/watch?v=k8Tp5hj6ylY
 18. The NSA Playset Bluetooth Smart Attack Tools
 https://www.youtube.com/watch?v=_Z4gYyrKVFM
 
-2020.10 <a href="https://github.com/google/security-research/security/advisories/GHSA-h637-c88j-47wq" target="_blank"><b>BleedingTooth</b></a>  CVE-2020-12351，CVE-2020-12352和CVE-2020-24490<br>
-Bluewave CVE-2020-3848 -49 -50<br>
-BIAS CVE-2020-10135<br>
-BLURtooth  CVE-2020-15802<br>
-BLESA CVE-2020-9770<br>
-KNOB  CVE-2019-9506<br>
+<br>
+
+## To-Do
+- 2020.10 <a href="https://github.com/google/security-research/security/advisories/GHSA-h637-c88j-47wq" target="_blank"><b>BleedingTooth</b></a>  CVE-2020-12351，CVE-2020-12352&CVE-2020-24490<br>
+- 2020.04 <a href="https://francozappa.github.io/about-bias/" target="_blank"><b>BIAS</b></a> CVE-2020-10135<br>
+- 2020.03 <a href="https://github.com/google/security-research/security/advisories/GHSA-h637-c88j-47wq" target="_blank"><b>Bluewave</b></a> CVE-2020-3848 -49 -50<br>
+- 2020.03 <a href="https://nvd.nist.gov/vuln/detail/CVE-2020-15802" target="_blank"><b>BLURtooth</b></a> CVE-2020-15802<br>
+- 2020.03 <a href="https://nvd.nist.gov/vuln/detail/CVE-2020-9770" target="_blank">BLESA</a> CVE-2020-9770<br>
+- 2020.03 <a href="https://knobattack.com/" target="_blank">KNOB</a> CVE-2019-9506<br>
+
+
+*updade on 2020/10/23
