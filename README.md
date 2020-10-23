@@ -149,7 +149,7 @@ BLE Vulnerability TOP5
 	</tr>
 	<tr>
 		<td><font size="4">8.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/fASGU7Og5_4" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458374/video_to_markdown/images/youtube--fASGU7Og5_4-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BIAS: Bluetooth Impersonation AttackS" width="426" height="240" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/embed/fASGU7Og5_4" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458374/video_to_markdown/images/youtube--fASGU7Og5_4-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BIAS: Bluetooth Impersonation AttackS" width="426" height="240" /></a></center></td><iframe width="1170" height="658" src="https://www.youtube.com/embed/fASGU7Og5_4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<td>
 			<p align="center"><b>BIAS</b>: Bluetooth Impersonation AttackS
 			<br>
