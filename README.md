@@ -149,7 +149,7 @@ BLE Vulnerability TOP5
 	</tr>
 	<tr>
 		<td><font size="4">8.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/fASGU7Og5_4" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458374/video_to_markdown/images/youtube--fASGU7Og5_4-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BIAS: Bluetooth Impersonation AttackS" width="426" height="240" /></a></center></td><iframe width="1170" height="658" src="https://www.youtube.com/embed/fASGU7Og5_4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<td><center><a href="https://www.youtube.com/embed/fASGU7Og5_4" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1603432192/video_to_markdown/images/youtube--fASGU7Og5_4-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BIAS: Bluetooth Impersonation AttackS" width="426" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>BIAS</b>: Bluetooth Impersonation AttackS
 			<br>
@@ -296,7 +296,7 @@ https://www.youtube.com/watch?v=gCQ3iSy6R-U
 16. Hopping into Enterprise Networks from Thin Air with BLEEDINGBIT
 https://www.youtube.com/watch?v=ASod9cRtZf4
 
-   <br>漏洞预警 | BleedingBit蓝牙芯片远程代码执行漏洞 
+   漏洞预警 | BleedingBit蓝牙芯片远程代码执行漏洞 
 https://www.anquanke.com/post/id/163307  https://www.secpulse.com/archives/78841.html
 
 17. BA03 Breaking the Teeth of Bluetooth Padlocks Adrian Crenshaw
@@ -316,4 +316,4 @@ https://www.youtube.com/watch?v=_Z4gYyrKVFM
 - 2020.03 <a href="https://knobattack.com/" target="_blank">KNOB</a> CVE-2019-9506<br>
 
 
-*updade on 2020/10/23
+<strong>*updade on 2020/10/23</strong> @ <a href="https://github.com/Charmve" target="_blank"><b>Charmve</b></a>
