@@ -40,11 +40,11 @@ BLE Vulnerability TOP5
 - <a href="./04_BtleJuice" target="_blank">BtleJuice</a>
 - <a href="./05_BLE-CTF" target="_blank">BLE-CTF</a>
 
-<h2>✨ News! ✨</h2>
-<hr/>
+## ✨ News! ✨
+
 <ul>
-	<li><img width="30" height="30" src="image/BlackHat.jpg"><font size="4"><b>2020.10.13:</b> A heap-based type confusion affecting Linux kernel 4.8 and higher was discovered in ``net/bluetooth/l2cap_core.c.`` by <a href="https://github.com/google/security-research" target="_blank">Google Security Research</a> !</font></li>
-	<li><img width="30" height="30" src="https://static.leiphone.com/uploads/new/images/20200326/5e7c5dc11daa1.png?imageView2/2/w/740"><font size="4"><b>2020.03.26:</b> A memory corruption issue was addressed with improved input validation by <a href="https://www.leiphone.com/news/202003/gENc7OITqoxKchYo.html" target="_blank">Qihoo 360 Alpha Lab</a> !</font></li>
+	<li><img width="30" height="30" src="image/BlackHat.jpg">&nbsp;&nbsp;<font size="4"><b>2020.10.13:</b> A heap-based type confusion affecting Linux kernel 4.8 and higher was discovered in ``net/bluetooth/l2cap_core.c.`` by <a href="https://github.com/google/security-research" target="_blank">Google Security Research</a> !</font></li>
+	<li><img width="30" height="30" src="https://static.leiphone.com/uploads/new/images/20200326/5e7c5dc11daa1.png?imageView2/2/w/740">&nbsp;&nbsp;<font size="4"><b>2020.03.26:</b> A memory corruption issue was addressed with improved input validation by <a href="https://www.leiphone.com/news/202003/gENc7OITqoxKchYo.html" target="_blank">Qihoo 360 Alpha Lab</a> !</font></li>
 </ul>
 <br>
 
