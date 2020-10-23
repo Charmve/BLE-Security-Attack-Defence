@@ -282,6 +282,7 @@ https://www.youtube.com/watch?v=k8Tp5hj6ylY
 18. The NSA Playset Bluetooth Smart Attack Tools
 https://www.youtube.com/watch?v=_Z4gYyrKVFM
 
+2020.10 <a href="https://github.com/google/security-research/security/advisories/GHSA-h637-c88j-47wq" target="_blank"><b>BleedingTooth</b></a>  CVE-2020-12351，CVE-2020-12352和CVE-2020-24490<br>
 Bluewave CVE-2020-3848 -49 -50<br>
 BIAS CVE-2020-10135<br>
 BLURtooth  CVE-2020-15802<br>
