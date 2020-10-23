@@ -17,7 +17,7 @@ BLE Vulnerability TOP5
 - <a href="./03_SweynTooth" target="_blank">SweynTooth</a>
 - <a href="./04_BtleJuice" target="_blank">BtleJuice</a>
 - <a href="./05_BLE-CTF" target="_blank">BLE-CTF</a>
-<br>
+
 
 ## Table of Content
 ```
