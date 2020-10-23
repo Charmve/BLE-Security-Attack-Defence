@@ -11,6 +11,14 @@
 - <img width="30" height="30" src="https://static.leiphone.com/uploads/new/images/20200326/5e7c5dc11daa1.png?imageView2/2/w/740">&nbsp;&nbsp;<font size="4"><b>2020.03.26:</b> A memory corruption issue was addressed with improved input validation by <a href="https://www.leiphone.com/news/202003/gENc7OITqoxKchYo.html" target="_blank">Qihoo 360 Alpha Lab</a> !
 <br>
 
+BLE Vulnerability TOP5
+- <a href="./01_BlueBorne" target="_blank">BlueBorne</a>
+- <a href="./02_BleedingBit" target="_blank">BleedingBit</a>
+- <a href="./03_SweynTooth" target="_blank">SweynTooth</a>
+- <a href="./04_BtleJuice" target="_blank">BtleJuice</a>
+- <a href="./05_BLE-CTF" target="_blank">BLE-CTF</a>
+<br>
+
 ## Table of Content
 ```
 BLE-Security-Attack&Defence
@@ -39,15 +47,6 @@ BLE-Security-Attack&Defence
  ...
 ```
 <br>
-
-BLE Vulnerability TOP5
-- <a href="./01_BlueBorne" target="_blank">BlueBorne</a>
-- <a href="./02_BleedingBit" target="_blank">BleedingBit</a>
-- <a href="./03_SweynTooth" target="_blank">SweynTooth</a>
-- <a href="./04_BtleJuice" target="_blank">BtleJuice</a>
-- <a href="./05_BLE-CTF" target="_blank">BLE-CTF</a>
-<br>
-
 
 ## Bluetooth LE Vulnerabilities
 
