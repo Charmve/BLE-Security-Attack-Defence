@@ -242,27 +242,34 @@ https://www.youtube.com/watch?v=x3UUazj0tkg
  
 6. DEF CON 26 - Damien virtualabs Cauquil - You had better secure your BLE devices
 https://www.youtube.com/watch?v=VHJfd9h6G2s&t=646s
+
 7. DEF CON 24 Wireless Village - Jose Gutierrez and Ben Ramsey - How Do I BLE Hacking
 https://www.youtube.com/watch?v=oP6sx2cObrY
-8. DEF CON Safe Mode Wireless Village - FreqyXin - The Basics Of Breaking 
 
+8. DEF CON Safe Mode Wireless Village - FreqyXin - The Basics Of Breaking 
 https://www.youtube.com/watch?v=X2ARyfjzxhY
+
 9. DEF CON 26 - Vincent Tan - Hacking BLE Bicycle Locks for Fun and a Small Profit
 https://www.youtube.com/watch?v=O-caTVpHWoY
+
 10. DEF CON 26 WIRELESS VILLAGE - ryan holeman - BLE CTF
 https://www.youtube.com/watch?v=lx5MAOyu9N0
 
 11. DEF CON 21 - Ryan Holeman - The Bluetooth Device Database
 https://www.youtube.com/watch?v=BqiIERArnA8
+
 12. DEF CON 22 - Grant Bugher - Detecting Bluetooth Surveillance Systems
 https://www.youtube.com/watch?v=85uwy0ACJJw
 
 13. KnighTV Episode 11: Hacking BLe Devices Part 1/6: Attacking August Smart Lock Pro
 https://www.youtube.com/watch?v=3e4DBk5BKLg
+
 14. Gattacking Bluetooth Smart Devices - Introducing a New BLE Proxy Tool
 https://www.youtube.com/watch?v=uKqdb4lF0XU&list=LLxFkZjbpt0KyhEv1d342SQQ&index=6&t=91s
+
 15. Bluetooth Reverse Engineering: Tools and Techniques
 https://www.youtube.com/watch?v=gCQ3iSy6R-U
+
 16. Hopping into Enterprise Networks from Thin Air with BLEEDINGBIT
 https://www.youtube.com/watch?v=ASod9cRtZf4
 
@@ -271,5 +278,12 @@ https://www.anquanke.com/post/id/163307  https://www.secpulse.com/archives/78841
 
 17. BA03 Breaking the Teeth of Bluetooth Padlocks Adrian Crenshaw
 https://www.youtube.com/watch?v=k8Tp5hj6ylY
+
 18. The NSA Playset Bluetooth Smart Attack Tools
 https://www.youtube.com/watch?v=_Z4gYyrKVFM
+
+Bluewave CVE-2020-3848 -49 -50
+BIAS CVE-2020-10135
+BLURtooth  CVE-2020-15802
+BLESA CVE-2020-9770
+KNOB  CVE-2019-9506
