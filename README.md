@@ -273,7 +273,7 @@ https://www.youtube.com/watch?v=gCQ3iSy6R-U
 16. Hopping into Enterprise Networks from Thin Air with BLEEDINGBIT
 https://www.youtube.com/watch?v=ASod9cRtZf4
 
-   漏洞预警 | BleedingBit蓝牙芯片远程代码执行漏洞 
+   <br>漏洞预警 | BleedingBit蓝牙芯片远程代码执行漏洞 
 https://www.anquanke.com/post/id/163307  https://www.secpulse.com/archives/78841.html
 
 17. BA03 Breaking the Teeth of Bluetooth Padlocks Adrian Crenshaw
@@ -282,8 +282,8 @@ https://www.youtube.com/watch?v=k8Tp5hj6ylY
 18. The NSA Playset Bluetooth Smart Attack Tools
 https://www.youtube.com/watch?v=_Z4gYyrKVFM
 
-Bluewave CVE-2020-3848 -49 -50
-BIAS CVE-2020-10135
-BLURtooth  CVE-2020-15802
-BLESA CVE-2020-9770
-KNOB  CVE-2019-9506
+Bluewave CVE-2020-3848 -49 -50<br>
+BIAS CVE-2020-10135<br>
+BLURtooth  CVE-2020-15802<br>
+BLESA CVE-2020-9770<br>
+KNOB  CVE-2019-9506<br>
