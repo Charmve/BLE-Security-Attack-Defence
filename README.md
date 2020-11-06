@@ -314,5 +314,16 @@ https://www.youtube.com/watch?v=_Z4gYyrKVFM
 - 2020.03 <a href="https://nvd.nist.gov/vuln/detail/CVE-2020-9770" target="_blank">BLESA</a> CVE-2020-9770<br>
 - 2020.03 <a href="https://knobattack.com/" target="_blank">KNOB</a> CVE-2019-9506<br>
 
-
+## Citation
+Use this bibtex to cite this repository:
+```
+@misc{BLE Security,
+  title={Bluetooth LE-Security: Method, Tools and Stack},
+  author={Charmve},
+  year={2020.09},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/Charmve/BLE-Security-Attack-Defence}},
+}
+```
 <strong>*updade on 2020/10/23</strong> @ <a href="https://github.com/Charmve" target="_blank"><b>Charmve</b></a>
