@@ -1,4 +1,5 @@
-# Btle Stack
+# BLE OpenSource Stack
+
 * [Mynewt-Nimble](#mynewt-nimble)
   * [Overview](#overview)
   * [Supported hardware](#supported-hardware)
