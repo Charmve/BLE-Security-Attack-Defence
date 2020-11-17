@@ -25,7 +25,7 @@ required dependencies:
 sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
 ```
 
-### Fedora / Other-RPM based
+### Fedora / Other-RPM based
 
 ```
 sudo yum install bluez bluez-libs bluez-libs-devel npm
