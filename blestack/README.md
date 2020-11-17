@@ -1,4 +1,4 @@
-# BLE OpenSource Stack
+# BLE Open Source Stack
 
 * [Mynewt-Nimble](#mynewt-nimble)
   * [Overview](#overview)
