@@ -206,13 +206,13 @@ BLE-Security-Attack&Defence
 		<td><font size="4">12.</font></td>
 		<td><center><a href="https://www.youtube.com/watch?v=v9Xg9XcnNh0" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1605671088/video_to_markdown/images/youtube--v9Xg9XcnNh0-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="USENIX Security '19 - The KNOB is Broken: Exploiting Low Entropy in the Encryption Key" width="426" height="240" /></a></center></td>
 		<td>
-			<p align="center"><b>KNOB Attack</b>: Key Negotiation of Bluetooth Attack: Breaking Bluetooth Security
+			<p align="center"><b>Key Negotiation Of Bluetooth (KNOB)</b>: Breaking Bluetooth Security
 				<br>
 				<b>Daniele Antonioli, SUTD</b>
 			</p>
-			<p align="left" ><font size =2>Key Negotiation Of Bluetooth (KNOB) We present an attack on the encryption key negotiation protocol of Bluetooth BR/EDR. The attack allows a third party, without knowledge of any secret material (such as link and encryption keys), to make two (or more) victims agree on an encryption key with only 1 byte (8 bits) of entropy. Such low entropy enables the attacker to easily brute force the negotiated encryption keys, decrypt the eavesdropped ciphertext, and inject valid encrypted messages (in real-time)....</font>
+			<p align="left" ><font size =2>We present an attack on the encryption key negotiation protocol of Bluetooth BR/EDR. The attack allows a third party, without knowledge of any secret material (such as link and encryption keys), to make two (or more) victims agree on an encryption key with only 1 byte (8 bits) of entropy. Such low entropy enables the attacker to easily brute force the negotiated encryption keys, decrypt the eavesdropped ciphertext, and inject valid encrypted messages (in real-time)....</font>
 			</p>
-			<p align="center"><i><img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2016 (<b>Black Hat</b>) </i>
+			<p align="center"><i><img width="30" height="30" src="image/USENIX.jpg"> <b>USENIX Security 19</b></i>
 			<br>
 			[<b><a href="https://www.usenix.org/system/files/sec19-antonioli.pdf" target="_blank">PDF</a></b> | <a href="https://knobattack.com/" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=v9Xg9XcnNh0" target="_blank"><b>Video</b></a> | <a href="https://github.com/francozappa/knob/tree/master/poc-internalblue" target="_blank"><b>PoC</b></a>]</p>
 		</td>
