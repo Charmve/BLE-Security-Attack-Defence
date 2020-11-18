@@ -53,7 +53,7 @@ BLE-Security-Attack&Defence
 <table>
 	<tr>
 		<td><font size="4">1.</font></td>
-		<td><center><a href="https://www.youtube.com/watch?v=WWQTlogqF1I" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457791/video_to_markdown/images/youtube--WWQTlogqF1I-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BlueBorne: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device" width="3408" height="240" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/watch?v=WWQTlogqF1I" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457791/video_to_markdown/images/youtube--WWQTlogqF1I-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BlueBorne: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device" width="6816" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>BlueBorne</b>: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 			<br>
@@ -67,7 +67,7 @@ BLE-Security-Attack&Defence
 	</tr>
 	<tr>
 		<td><font size="4">2.</font></td>
-		<td><center><a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><img src="https://img-blog.csdnimg.cn/img_convert/127a037eb210b12e714618610e1b9697.png" alt="BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil" width="3408" height="240" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><img src="https://img-blog.csdnimg.cn/img_convert/127a037eb210b12e714618610e1b9697.png" alt="BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil" width="6816" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>BtleJuice</b>: the Bluetooth Smart Man In The Middle Framework 
 			<br>
@@ -81,7 +81,7 @@ BLE-Security-Attack&Defence
 	</tr>
 	<tr>
 		<td><font size="4">3.</font></td>
-		<td><center><a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457995/video_to_markdown/images/youtube--VHJfd9h6G2s-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Damien virtualabs Cauquil - You had better secure your BLE devices" width="426" height="240" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457995/video_to_markdown/images/youtube--VHJfd9h6G2s-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Damien virtualabs Cauquil - You had better secure your BLE devices" width="6816" height="240" /></a></center></td>
 		<td>
 			<p align="center">You had better secure your BLE devices 
 			<br>
