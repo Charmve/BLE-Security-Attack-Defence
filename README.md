@@ -181,7 +181,7 @@ BLE-Security-Attack&Defence
 			<p align="center"><b>MASHaBLE</b>: Mobile Applications of Secret Handshakes Over Bluetooth LE 
 			<br>
 			<b>Yan Michalevsky</b></p>
-			<p align="left" ><font size =2>n this talk, we present new applications for cryptographic secret handshakes between mobile devices on top of Bluetooth Low-Energy (LE). Secret handshakes enable mutual authentication between parties that did not meet before (and therefore don't trust each other) but are both associated with a virtual secret group or community...</font>
+			<p align="left" ><font size =2>In this talk, we present new applications for cryptographic secret handshakes between mobile devices on top of Bluetooth Low-Energy (LE). Secret handshakes enable mutual authentication between parties that did not meet before (and therefore don't trust each other) but are both associated with a virtual secret group or community...</font>
 			</p>
 			<p align="center"><i><img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2016 (<b>Black Hat</b>) </i>
 			<br>
