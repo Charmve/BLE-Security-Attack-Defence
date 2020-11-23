@@ -114,7 +114,7 @@ BLE-Security-Attack&Defence
 			<b>Matheus E. Garbelini</b></p>
 			<p align="left" ><font size =2>The Bluetooth Low Energy (BLE) is a promising short-range communication technology for Internet-of-Things (IoT) with reduced energy consumption. Vendors implement BLE protocols in their manufactured devices compliant to Bluetooth Core Specification. Recently, several vulnerabilities were discovered in the BLE protocol ...</font>
 			</p>
-			<p align="center"><i><img width="30" height="30" src="image/USENIX.jpg"> <b>USENIX Security</b></i>
+			<p align="center"><i><img width="30" height="30" src="image/USENIX.jpg"> <b>USENIX Security 20</b></i>
 			<br>
 			[<b><a href="https://www.usenix.org/conference/atc20/presentation/garbelini" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/03_SweynTooth" target="_blank"><b>Code</b></a> | <a href="https://asset-group.github.io/disclosures/sweyntooth/" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=oty1yTdsEXs" target="_blank"><b>Video</b></a>]</p>
 		</td>
