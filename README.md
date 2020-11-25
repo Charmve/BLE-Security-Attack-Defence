@@ -157,7 +157,7 @@ BLE-Security-Attack&Defence
 			</p>
 			<p align="center"><i>📑 IEEE Symposium on Security and Privacy</i>
 			<br>
-			[<b><a href="https://francozappa.github.io/publication/bias/paper.pdf" target="_blank">PDF</a></b> | <a href="https://francozappa.github.io/publication/bias/" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=fASGU7Og5_4&feature=emb_logo" target="_blank"><b>Video</b></a> | <a href="https://github.com/francozappa/bias" target="_blank"><b>PoC</b></a>]</p>
+			[<b><a href="https://francozappa.github.io/publication/bias/paper.pdf" target="_blank">PDF</a></b> | <a href="https://francozappa.github.io/publication/bias/" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=fASGU7Og5_4&feature=emb_logo" target="_blank"><b>Video</b></a> | <a href="https://francozappa.github.io/publication/bias/slides.pdf" target="_blank"><b>Slides</b></a> | <a href="https://github.com/francozappa/bias" target="_blank"><b>PoC</b></a>]</p>
 		</td>
 	</tr>
 	<tr>
