@@ -3,6 +3,7 @@
 
 A Node.js package for BLE (Bluetooth Low Energy) Man-in-the-Middle & more.
 
+:octocat: Original GitHub: https://github.com/securing/gattacker
 
 ## Prerequisites
 
