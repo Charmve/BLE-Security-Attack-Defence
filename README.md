@@ -116,7 +116,7 @@ BLE-Security-Attack&Defence
 			</p>
 			<p align="center"><i><img width="30" height="30" src="image/USENIX.jpg"> <b>USENIX Security 20</b></i>
 			<br>
-			[<b><a href="https://www.usenix.org/conference/atc20/presentation/garbelini" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/03_SweynTooth" target="_blank"><b>Code</b></a> | <a href="https://asset-group.github.io/disclosures/sweyntooth/" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=oty1yTdsEXs" target="_blank"><b>Video</b></a>]</p>
+			[<b><a href="https://www.usenix.org/conference/atc20/presentation/garbelini" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/03_SweynTooth" target="_blank"><b>Code</b></a> | <a href="https://asset-group.github.io/disclosures/sweyntooth/" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=oty1yTdsEXs" target="_blank"><b>Video</b></a> | <a href="https://www.usenix.org/system/files/atc20-paper43-slides-garbelini.pdf" target="_blank"><b>Slides</b></a>]</p>
 		</td>
 	</tr>
 	<tr>
@@ -143,6 +143,7 @@ BLE-Security-Attack&Defence
 			<p align="left" ><font size =2>Using a few simple tricks, we can assure the victim will connect to our impersonator device instead of the original one, and then just proxy the traffic - without consent of the mobile app or device. And here it finally becomes interesting - just imagine how many attacks you might be able to perform with the possibility to actively intercept the BLE communication....</font></p>
 			<p align="center"><i><img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2016 (<b>Black Hat</b>) </i>
 			<br>
+			[<a href="https://www.blackhat.com/docs/us-16/materials/us-16-Jasek-GATTacking-Bluetooth-Smart-Devices-Introducing-a-New-BLE-Proxy-Tool.pdf" target="_blank"><b>Slides</b></a>]</p>
 			</p>
 		</td>
 	</tr>
