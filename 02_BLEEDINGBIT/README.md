@@ -1,6 +1,6 @@
 # BLEEDINGBIT
 
-offical link：https://www.armis.com/bleedingbit/
+Official link：https://www.armis.com/bleedingbit/
 
 <table>
 <tr>
