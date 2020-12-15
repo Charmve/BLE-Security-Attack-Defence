@@ -1,19 +1,13 @@
 <div align="center">
 	<img border=0 src="logo.jpg" width="300">
 </div>
+<h3 align="center">Bluetooth-LE Security: Method, Tools and Stack</h3>
 <p align="center">
   <a href="https://github.com/Charmve/BLE-Security-Attack-Defence"><img src="https://img.shields.io/badge/👓-B1ueB0y-blue" alt="B1ueB0y"></a>
   <a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/Github-Charmve-lightblue" alt="github"></a>
   <a href="./Code-of-Conduct.md"><img src="https://img.shields.io/badge/Licence-GPL-green" alt="Code-of-Conduct"></a>
 </p>
 <br>
-
-# Bluetooth-LE Security: Method, Tools and Stack
-
-
-<p align="center"><img border=0 src="profile.jpg"><br></p>
-<br>
-
 
 ## ✨ News! ✨
 
@@ -27,6 +21,9 @@
 - <a href="./03_SweynTooth" target="_blank">SweynTooth</a>
 - <a href="./04_BtleJuice" target="_blank">BtleJuice</a>
 - <a href="./05_BLE-CTF" target="_blank">BLE-CTF</a>
+
+<br>
+<p align="center"><img border=0 src="profile.jpg"><br></p>
 <br>
 
 ## Table of Content
