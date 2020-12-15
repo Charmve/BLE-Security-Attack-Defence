@@ -75,16 +75,23 @@ BLE-Security-Attack&Defence
 	</tr>
 	<tr>
 		<td><font size="4">2.</font></td>
-		<td><center><a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><img src="https://img-blog.csdnimg.cn/img_convert/127a037eb210b12e714618610e1b9697.png" alt="BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil" width="6816" height="240" /></a></center></td>
 		<td>
-			<p align="center"><b>BtleJuice</b>: the Bluetooth Smart Man In The Middle Framework 
-			<br>
-			<b>Damiel Cauquil</p></b>
+			<center>
+				<a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank">
+					<img src="https://img-blog.csdnimg.cn/img_convert/127a037eb210b12e714618610e1b9697.png" alt="BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil" width="6816" height="240" />
+				</a>
+			</center>
+		</td>
+		<td>
+			<p align="center">
+				<b>BtleJuice</b>: the Bluetooth Smart Man In The Middle Framework 
+				<br><b>Damiel Cauquil</b>
+			</p>
 			<p align="left">
 				<font size =2>A lot of Bluetooth Low Energy capable devices are spread since the last few years, offering a brand new way to compromise many “smart” objects: fitness wristbands, smart locks and padlocks and even healthcare devices. But this protocol poses some new challenges...</font>
 			</p>
 			<p align="center">
-				<i><img width="30" height="30" src="image/DEFCON.jpg"> DefConference 2016 (<b>DEFCOON</b>) </i>
+				<img width="30" height="30" src="image/DEFCON.jpg"> <i>DefConference 2016</i> (<b>DEFCOON</b>) 
 			  <br>[<a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><b>Video</b></a> | <a href="https://speakerdeck.com/virtualabs/btlejuice-the-bluetooth-smart-mitm-framework?slide=40" target="_blank"><b>PDF</b></a> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a>]
 		  </p>
 		</td>
@@ -250,6 +257,7 @@ BLE-Security-Attack&Defence
 		</td>
 	</tr>
 </table>
+
 <br>
 <br>
 
