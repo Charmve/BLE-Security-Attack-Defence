@@ -2,7 +2,7 @@
 
 <br>
 <p align="center"><img border=0 src="profile.jpg"></p>
-<img border=0 src="image/BlueBoy.png" wide=30>
+<img border=0 src="BlueBoy.png" width="30">
 <br>
 
 
