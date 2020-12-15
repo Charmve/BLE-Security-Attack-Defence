@@ -80,24 +80,30 @@ BLE-Security-Attack&Defence
 			<p align="center"><b>BtleJuice</b>: the Bluetooth Smart Man In The Middle Framework 
 			<br>
 			<b>Damiel Cauquil</p></b>
-			<p align="left" ><font size =2>A lot of Bluetooth Low Energy capable devices are spread since the last few years, offering a brand new way to compromise many “smart” objects: fitness wristbands, smart locks and padlocks and even healthcare devices. But this protocol poses some new challenges...</font>
+			<p align="left">
+				<font size =2>A lot of Bluetooth Low Energy capable devices are spread since the last few years, offering a brand new way to compromise many “smart” objects: fitness wristbands, smart locks and padlocks and even healthcare devices. But this protocol poses some new challenges...</font>
 			</p>
-			<p align="center"><i><img width="30" height="30" src="image/DEFCON.jpg"> DefConference 2016 (<b>DEFCOON</b>) </i>
-			<br>
-			[<a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><b>Video</b></a> | <a href="https://speakerdeck.com/virtualabs/btlejuice-the-bluetooth-smart-mitm-framework?slide=40" target="_blank"><b>PDF</b></a> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a>]</p>
+			<p align="center">
+				<i><img width="30" height="30" src="image/DEFCON.jpg"> DefConference 2016 (<b>DEFCOON</b>) </i>
+			  <br>[<a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank"><b>Video</b></a> | <a href="https://speakerdeck.com/virtualabs/btlejuice-the-bluetooth-smart-mitm-framework?slide=40" target="_blank"><b>PDF</b></a> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a>]
+		  </p>
 		</td>
 	</tr>
 	<tr>
 		<td><font size="4">3.</font></td>
 		<td><center><a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457995/video_to_markdown/images/youtube--VHJfd9h6G2s-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Damien virtualabs Cauquil - You had better secure your BLE devices" width="6816" height="240" /></a></center></td>
 		<td>
-			<p align="center">You had better secure your BLE devices 
-			<br>
-			<b>Damiel Cauquil</b> </p>
-			<p align="left"><font size =2>Sniffing and attacking Bluetooth Low Energy devices has always been a real pain. Proprietary tools do the job but cannot be tuned to fit our offensive needs, while opensource tools work sometimes, ... <br></p>
-			<p align="center"><i><img width="30" height="30" src="image/DEFCON.jpg"> DefConference 2018 (<b>DEFCOON26</b>) </i>
-			<br>
-			[<b><a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a> | <a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><b>Video</b></a>]</p>
+			<p align="center">
+				You had better secure your BLE devices 
+				<br><b>Damiel Cauquil</b> 
+			</p>
+			<p align="left">
+				<font size =2>Sniffing and attacking Bluetooth Low Energy devices has always been a real pain. Proprietary tools do the job but cannot be tuned to fit our offensive needs, while opensource tools work sometimes, ... </font>
+			</p>
+			<p align="center">
+				<i><img width="30" height="30" src="image/DEFCON.jpg"> DefConference 2018 (<b>DEFCOON26</b>) </i>
+				<br>[<b><a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank">PDF</a></b> | <a href="https://github.com/Charmve/BLE-Security-Attack-Defence/tree/master/04_BtleJuice" target="_blank"><b>Project Page</b></a> | <a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><b>Video</b></a>]
+			</p>
 		</td>
 	</tr>
 	<tr>
@@ -146,12 +152,12 @@ BLE-Security-Attack&Defence
 		<td><center><a href="https://www.youtube.com/embed/uKqdb4lF0XU" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458318/video_to_markdown/images/youtube--uKqdb4lF0XU-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Gattacking Bluetooth Smart Devices - Introducing a New BLE Proxy Tool" width="3408" height="240" /></a></center></td>
 		<td>
 			<p align="center"><b>Gattacking Bluetooth Smart Devices</b> - Introducing a New BLE Proxy Tool 
-			<br>
-			<b>Slawomir Jasek</b></p>
+				<br><b>Slawomir Jasek</b>
+			</p>
 			<p align="left" ><font size =2>Using a few simple tricks, we can assure the victim will connect to our impersonator device instead of the original one, and then just proxy the traffic - without consent of the mobile app or device. And here it finally becomes interesting - just imagine how many attacks you might be able to perform with the possibility to actively intercept the BLE communication....</font></p>
-			<p align="center"><i><img width="30" height="30" src="image/BlackHat.jpg"> Black Hat 2016 (<b>Black Hat</b>) </i>
-			<br>
-			[<a href="https://www.blackhat.com/docs/us-16/materials/us-16-Jasek-GATTacking-Bluetooth-Smart-Devices-Introducing-a-New-BLE-Proxy-Tool.pdf" target="_blank"><b>Slides</b></a>]</p>
+			<p align="center">
+				<img width="30" height="30" src="image/BlackHat.jpg"> <i>Black Hat 2016</i> (<b>Black Hat</b>) 
+			  <br>[<a href="https://www.blackhat.com/docs/us-16/materials/us-16-Jasek-GATTacking-Bluetooth-Smart-Devices-Introducing-a-New-BLE-Proxy-Tool.pdf" target="_blank"><b>Slides</b></a>]
 			</p>
 		</td>
 	</tr>
@@ -231,13 +237,16 @@ BLE-Security-Attack&Defence
 		<td><center><a href="https://www.youtube.com/embed/gCQ3iSy6R-U" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458589/video_to_markdown/images/youtube--gCQ3iSy6R-U-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Bluetooth Reverse Engineering: Tools and Techniques" width="3408" height="240" /></a></center></td>
 		<td>
 			<p align="center">Bluetooth Reverse Engineering: Tools and Techniques
-			<br>
-			<b>Mike Ryan, Founder</b>, ICE9 Consulting
-			<p align="left" ><font size =2>With the continuing growth of IoT, more and more devices are entering the market with Bluetooth. This talk will shed some light on how these devices use Bluetooth and will cover reverse engineering techniques that in many cases can be accomplished with hardware you already have! Whether you're a Bluetooth newbie or a seasoned pro, you’ll learn something from this talk....</font>
+				<br>
+				<b>Mike Ryan, Founder</b>, ICE9 Consulting
 			</p>
-			<p align="center"><i><img width="30" height="30" src="image/RSA_Conference.png"> RSA Conference</i>
-			<br>
-			[<b><a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Michalevsky-MASHABLE-Mobile-Applications-Of-Secret-Handshakes-Over-Bluetooth-LE-wp.pdf" target="_blank">PDF</a></b> | <a href="https://www.blackhat.com/asia-17/briefings.html#mashable-mobile-applications-of-secret-handshakes-over-bluetooth-le" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=gCQ3iSy6R-U" target="_blank"><b>Video</b></a>]</p>
+			<p align="left" >
+				<font size =2>With the continuing growth of IoT, more and more devices are entering the market with Bluetooth. This talk will shed some light on how these devices use Bluetooth and will cover reverse engineering techniques that in many cases can be accomplished with hardware you already have! Whether you're a Bluetooth newbie or a seasoned pro, you’ll learn something from this talk....</font>
+			</p>
+			<p align="center">
+				<img width="30" height="30" src="image/RSA_Conference.png"> <i>RSA Conference</i>
+				<br>[<b><a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Michalevsky-MASHABLE-Mobile-Applications-Of-Secret-Handshakes-Over-Bluetooth-LE-wp.pdf" target="_blank">PDF</a></b> | <a href="https://www.blackhat.com/asia-17/briefings.html#mashable-mobile-applications-of-secret-handshakes-over-bluetooth-le" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=gCQ3iSy6R-U" target="_blank"><b>Video</b></a>]
+			</p>
 		</td>
 	</tr>
 </table>
