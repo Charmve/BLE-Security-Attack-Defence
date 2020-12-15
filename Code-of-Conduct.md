@@ -14,7 +14,9 @@
 ## 联系作者
 :email: yidazhang1#gmail.com
 
+<br>
 ****
+<br>
 
 ## Disclaimer
 This repo follows the GPL open source agreement, please be sure to understand.
@@ -32,5 +34,5 @@ If you do not comply, you will be responsible for the consequences, and the auth
 
 <br>
 <div align="right">
-  Zhang Wei (Charmve)
+  [Zhang Wei (Charmve)](https://github.com/Charmve)
 </div>
