@@ -34,5 +34,5 @@ If you do not comply, you will be responsible for the consequences, and the auth
 
 <br>
 <div align="right">
-  [Zhang Wei (Charmve)](https://github.com/Charmve)
+  <a href="https://github.com/Charmve" target="_blank">Zhang Wei (Charmve)</a>
 </div>
