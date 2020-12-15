@@ -1,7 +1,7 @@
 <div align="center">
 	<img border=0 src="logo.jpg" width="300">
 </div>
-<h3 align="center">Bluetooth-LE Security: Method, Tools and Stack</h3>
+<h4 align="center">Bluetooth-LE Security: Method, Tools and Stack</h4>
 <p align="center">
   <a href="https://github.com/Charmve/BLE-Security-Attack-Defence"><img src="https://img.shields.io/badge/👓-B1ueB0y-blue" alt="B1ueB0y"></a>
   <a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/Github-Charmve-lightblue" alt="github"></a>
