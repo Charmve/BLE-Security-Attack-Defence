@@ -13,9 +13,10 @@
 
 ## 联系作者
 :email: yidazhang1#gmail.com
-
 <br>
+
 ****
+
 <br>
 
 ## Disclaimer
@@ -34,5 +35,5 @@ If you do not comply, you will be responsible for the consequences, and the auth
 
 <br>
 <div align="right">
-  [Zhang Wei (Charmve)](https://github.com/Charmve)
+  <a ref="https://github.com/Charmve">Zhang Wei (Charmve)</a>
 </div>
