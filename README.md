@@ -1,5 +1,5 @@
 <div align="center">
-	<img border=0 src="logo.jpg" width="300">
+	<img border=0 src="logo.jpg" width="360">
 </div>
 <h3 align="center">Bluetooth-LE Security: Method, Tools and Stack</h3>
 <p align="center">
