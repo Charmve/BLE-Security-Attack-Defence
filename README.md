@@ -1,7 +1,17 @@
+<div align="center">
+	<img border=0 src="BlueBoy.png" width="120">
+</div>
+<p align="center">
+  <a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/Github-Charmve-blue" alt="github"></a>
+  <a href="https://github.com/Charmve/BLE-Security-Attack-Defence"><img src="https://img.shields.io/badge/👓-B1ueB0y-lightblue" alt="B1ueB0y"></a>
+  <a href="./Code-of-Conduct.md"><img src="https://img.shields.io/badge/Licence-GPL-green" alt="Code-of-Conduct"></a>
+</p>
+<br>
+
 # Bluetooth-LE Security: Method, Tools and Stack
 
-<br>
-<img border=0 src="BlueBoy.png" width="120"><p align="center"><img border=0 src="profile.jpg"><br></p>
+
+<p align="center"><img border=0 src="profile.jpg"><br></p>
 <br>
 
 
