@@ -1,5 +1,5 @@
 <div align="center">
-	<img border=0 src="logo.jpg">
+	<img border=0 src="logo.jpg" width="300">
 </div>
 <p align="center">
   <a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/Github-Charmve-blue" alt="github"></a>
