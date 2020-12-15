@@ -307,9 +307,9 @@ https://www.youtube.com/watch?v=k8Tp5hj6ylY
 18. The NSA Playset Bluetooth Smart Attack Tools
 https://www.youtube.com/watch?v=_Z4gYyrKVFM
 
-## Code-of-Conduct
+## Code of Conduct
 
-[Code-of-Conduct](Code-of-Conduct.md)
+[免责申明 Code of Conduct](Code-of-Conduct.md)
 
 ## To-Do
 - 2020.10 <a href="https://github.com/google/security-research/security/advisories/GHSA-h637-c88j-47wq" target="_blank"><b>BleedingTooth</b></a>  CVE-2020-12351 CVE-2020-12352 CVE-2020-24490<br>
