@@ -1,7 +1,7 @@
 # Bluetooth-LE Security: Method, Tools and Stack
 
 <br>
-<img border=0 src="BlueBoy.png" width="90"><p align="center"><img border=0 src="profile.jpg"><br></p>
+<img border=0 src="BlueBoy.png" width="120"><p align="center"><img border=0 src="profile.jpg"><br></p>
 <br>
 
 
