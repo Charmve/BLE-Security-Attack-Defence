@@ -265,6 +265,23 @@
 			</p>
 		</td>
 	</tr>
+	<tr>
+		<td><font size="4">14.</font></td>
+		<td><center><a href="https://www.youtube.com/watch?v=QkGCP2mfbJ8" target="_blank"><img src="https://github.com/hexway/apple_bleee/raw/master/img/status_gif.gif" alt="Apple bleee" height="260" width="6000" /></a></center></td>
+		<td>
+			<p align="center"><b>Apple bleee</b>: What happens on your iPhone, stays on your iPhone
+				<br>
+				<b>Jeremy Martin*,</b> Douglas Alpuche, Kristina Bodeman
+			</p>
+			<p align="left" >
+				<font size =2>Handoff All Your Privacy – A Review of Apple’s Bluetooth Low Energy Continuity Protocol ....</font>
+			</p>
+			<p align="center">
+				<img width="30" height="30" src="https://user-images.githubusercontent.com/29084184/128975720-f5d43ba0-9b5a-45f5-9ac8-49f507467c6b.png"> <i>Apple bleee</i>
+				<br>[<b><a href="https://arxiv.org/pdf/1904.10600.pdf" target="_blank">PDF</a></b> | <a href="https://hexway.io/research/apple-bleee/" target="_blank"><b>Project Page</b></a>  | <a href="https://www.youtube.com/watch?v=Bi602yAIBAw" target="_blank"><b>Video</b></a> | <a href="https://github.com/hexway/apple_bleee" target="_blank"><b>PoC</b></a> | <a href="https://www.mac4n6.com/blog/2018/12/3/airdrop-analysis-of-the-udp-unsolicited-dick-pic" target="_blank"><b>Analysis</b></a>]
+			</p>
+		</td>
+	</tr>
 </table>
 
 <br>
