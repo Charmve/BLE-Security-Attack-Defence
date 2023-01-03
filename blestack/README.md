@@ -106,7 +106,9 @@ UART / Serial Port Emulation service
 
 Nordic nrf52832
 
-repo: https://github.com/lingyq/nRF5_SDK_15.0.0_a53641a
+repo: 
+- https://github.com/lingyq/nRF5_SDK_15.0.0_a53641a
+- https://github.com/ZJ-TEK/ZJ-RT-Thread-NIMBLE-NORDIC
 
 <br>
 
