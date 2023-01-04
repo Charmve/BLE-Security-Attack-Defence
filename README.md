@@ -62,7 +62,7 @@
 <table>
 	<tr>
 		<td><font size="4">1.</font></td>
-		<td><center><a href="https://www.youtube.com/watch?v=WWQTlogqF1I" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457791/video_to_markdown/images/youtube--WWQTlogqF1I-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BlueBorne: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/watch?v=WWQTlogqF1I" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457791/video_to_markdown/images/youtube--WWQTlogqF1I-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BlueBorne: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device" height="280" width="6000" /></a></center></td>
 		<td>
 			<p align="center"><b>BlueBorne</b>: A New Class of Airborne Attacks that can Remotely Compromise Any Linux/IoT Device
 			<br>
@@ -79,7 +79,7 @@
 		<td>
 			<center>
 				<a href="https://www.youtube.com/watch?v=G08fh5Sa7TU" target="_blank">
-					<img src="https://img-blog.csdnimg.cn/img_convert/127a037eb210b12e714618610e1b9697.png" alt="BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil" height="260" width="6000" />
+					<img src="https://img-blog.csdnimg.cn/img_convert/127a037eb210b12e714618610e1b9697.png" alt="BtleJuice: the Bluetooth Smart Man In The Middle Framework by Damiel Cauquil" height="280" width="6000" />
 				</a>
 			</center>
 		</td>
@@ -99,7 +99,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">3.</font></td>
-		<td><center><a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457995/video_to_markdown/images/youtube--VHJfd9h6G2s-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Damien virtualabs Cauquil - You had better secure your BLE devices" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/watch?v=VHJfd9h6G2s" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601457995/video_to_markdown/images/youtube--VHJfd9h6G2s-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Damien virtualabs Cauquil - You had better secure your BLE devices" height="280" width="6000" /></a></center></td>
 		<td>
 			<p align="center">
 				You had better secure your BLE devices 
@@ -114,11 +114,9 @@
 			</p>
 		</td>
 	</tr>
-</table>
-<table>
 	<tr>
 		<td><font size="4">4.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/D5FIIqLWtYw?list=PLKV_4pHyTj0GUtdyOZotJJFwsjHbBT83l" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458076/video_to_markdown/images/youtube--D5FIIqLWtYw-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BLEEDINGBIT - Takeover of Aruba Access Point Access Point 325" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/embed/D5FIIqLWtYw?list=PLKV_4pHyTj0GUtdyOZotJJFwsjHbBT83l" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458076/video_to_markdown/images/youtube--D5FIIqLWtYw-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BLEEDINGBIT - Takeover of Aruba Access Point Access Point 325" height="280" width="6000" /></a></center></td>
 		<td>
 			<p align="center"><b>BLEEDINGBIT </b>- Takeover of Aruba Access Point Access Point 325 
 			<br>
@@ -131,7 +129,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">5.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/oty1yTdsEXs" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458144/video_to_markdown/images/youtube--oty1yTdsEXs-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="SweynTooth: Unleashing Mayhem over Bluetooth Low Energy" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/embed/oty1yTdsEXs" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458144/video_to_markdown/images/youtube--oty1yTdsEXs-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="SweynTooth: Unleashing Mayhem over Bluetooth Low Energy" height="280" width="6000" /></a></center></td>
 		<td>
 			<p align="center"><b>SweynTooth</b>: Unleashing Mayhem over Bluetooth Low Energy 
 			<br>
@@ -145,7 +143,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">6.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/wIWZaSZsRc8" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458197/video_to_markdown/images/youtube--wIWZaSZsRc8-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BLESA: Spoofing Attacks against Reconnections in Bluetooth Low Energy" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/embed/wIWZaSZsRc8" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458197/video_to_markdown/images/youtube--wIWZaSZsRc8-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BLESA: Spoofing Attacks against Reconnections in Bluetooth Low Energy" height="280" width="6000" /></a></center></td>
 		<td>
 			<p align="center"><b>BLESA</b>:  Spoofing Attacks against Reconnections in Bluetooth Low Energy 			
 		<br>
@@ -161,7 +159,7 @@
 <table>
 	<tr>
 		<td><font size="4">7.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/uKqdb4lF0XU" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458318/video_to_markdown/images/youtube--uKqdb4lF0XU-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Gattacking Bluetooth Smart Devices - Introducing a New BLE Proxy Tool" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/embed/uKqdb4lF0XU" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458318/video_to_markdown/images/youtube--uKqdb4lF0XU-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Gattacking Bluetooth Smart Devices - Introducing a New BLE Proxy Tool" height="100%" width="3200" /></a></center></td>
 		<td>
 			<p align="center"><b>Gattacking Bluetooth Smart Devices</b> - Introducing a New BLE Proxy Tool 
 				<br><b>Slawomir Jasek</b>
@@ -175,7 +173,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">8.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/fASGU7Og5_4" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1603432192/video_to_markdown/images/youtube--fASGU7Og5_4-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BIAS: Bluetooth Impersonation AttackS" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/embed/fASGU7Og5_4" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1603432192/video_to_markdown/images/youtube--fASGU7Og5_4-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BIAS: Bluetooth Impersonation AttackS" height="100%" width="3200" /></a></center></td>
 		<td>
 			<p align="center"><b>BIAS</b>: Bluetooth Impersonation AttackS
 			<br>
@@ -189,7 +187,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">9.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/iH7VPUNz-dU" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458374/video_to_markdown/images/youtube--iH7VPUNz-dU-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BLEKey: Breaking Access Controls With BLEKey" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/embed/iH7VPUNz-dU" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458374/video_to_markdown/images/youtube--iH7VPUNz-dU-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="BLEKey: Breaking Access Controls With BLEKey" height="100%" width="3200" /></a></center></td>
 		<td>
 			<p align="center"><b>BLEKey</b>: Breaking Access Controls With BLEKey 
 			<br>
@@ -205,7 +203,7 @@
 <table>
 	<tr>
 		<td><font size="4">10.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/s79CG2Os0Nc" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458432/video_to_markdown/images/youtube--s79CG2Os0Nc-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="MASHaBLE: Mobile Applications of Secret Handshakes Over Bluetooth LE" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/embed/s79CG2Os0Nc" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458432/video_to_markdown/images/youtube--s79CG2Os0Nc-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="MASHaBLE: Mobile Applications of Secret Handshakes Over Bluetooth LE" height="280" width="6000" /></a></center></td>
 		<td>
 			<p align="center"><b>MASHaBLE</b>: Mobile Applications of Secret Handshakes Over Bluetooth LE 
 			<br>
@@ -219,7 +217,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">11.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/X2ARyfjzxhY" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458478/video_to_markdown/images/youtube--X2ARyfjzxhY-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Safe Mode Wireless Village - The Basics Of Breaking BLE v3" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/embed/X2ARyfjzxhY" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458478/video_to_markdown/images/youtube--X2ARyfjzxhY-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Safe Mode Wireless Village - The Basics Of Breaking BLE v3" height="280" width="6000" /></a></center></td>
 		<td>
 			<p align="center"><b>Safe Mode Wireless Village</b> - The Basics Of Breaking BLE v3 
 			<br>
@@ -233,7 +231,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">12.</font></td>
-		<td><center><a href="https://www.youtube.com/watch?v=v9Xg9XcnNh0" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1605671088/video_to_markdown/images/youtube--v9Xg9XcnNh0-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="USENIX Security '19 - The KNOB is Broken: Exploiting Low Entropy in the Encryption Key" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/watch?v=v9Xg9XcnNh0" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1605671088/video_to_markdown/images/youtube--v9Xg9XcnNh0-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="USENIX Security '19 - The KNOB is Broken: Exploiting Low Entropy in the Encryption Key" height="280" width="6000" /></a></center></td>
 		<td>
 			<p align="center"><b>Key Negotiation Of Bluetooth (KNOB)</b>: Breaking Bluetooth Security
 				<br>
@@ -250,7 +248,7 @@
 <table>
 	<tr>
 		<td><font size="4">13.</font></td>
-		<td><center><a href="https://www.youtube.com/embed/gCQ3iSy6R-U" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458589/video_to_markdown/images/youtube--gCQ3iSy6R-U-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Bluetooth Reverse Engineering: Tools and Techniques" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/embed/gCQ3iSy6R-U" target="_blank"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1601458589/video_to_markdown/images/youtube--gCQ3iSy6R-U-c05b58ac6eb4c4700831b2b3070cd403.jpg" alt="Bluetooth Reverse Engineering: Tools and Techniques" height="320" width="540" /></a></center></td>
 		<td>
 			<p align="center">Bluetooth Reverse Engineering: Tools and Techniques
 				<br>
@@ -267,7 +265,7 @@
 	</tr>
 	<tr>
 		<td><font size="4">14.</font></td>
-		<td><center><a href="https://www.youtube.com/watch?v=QkGCP2mfbJ8" target="_blank"><img src="https://github.com/hexway/apple_bleee/raw/master/img/status_gif.gif" alt="Apple bleee" height="260" width="6000" /></a></center></td>
+		<td><center><a href="https://www.youtube.com/watch?v=QkGCP2mfbJ8" target="_blank"><img src="https://github.com/hexway/apple_bleee/raw/master/img/status_gif.gif" alt="Apple bleee" height="320" width="540" /></a></center></td>
 		<td>
 			<p align="center"><b>Apple bleee</b>: What happens on your iPhone, stays on your iPhone
 				<br>
