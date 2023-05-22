@@ -1,4 +1,7 @@
+<!-- <img border=0 src="https://github.com/Charmve/BLE-Security-Attack-Defence/assets/29084184/3162b7a9-78a8-4d11-8611-f49c6b6ee787" width="100%"> -->
+
 <div align="center">
+	<br>
 	<img border=0 src="logo.jpg" width="360">
 </div>
 <h3 align="center">Bluetooth-LE Security: Method, Tools and Stack</h3>
@@ -13,8 +16,45 @@
 
 - <img width="30" height="30" src="image/BlackHat.jpg">&nbsp;&nbsp;<font size="4"><b>2020.10.13:</b> A heap-based type confusion affecting Linux kernel 4.8 and higher was discovered in ``net/bluetooth/l2cap_core.c.`` by <a href="https://github.com/google/security-research" target="_blank">Google Security Research</a> !<br>
 - <img width="30" height="30" src="https://static.leiphone.com/uploads/new/images/20200326/5e7c5dc11daa1.png?imageView2/2/w/740">&nbsp;&nbsp;<font size="4"><b>2020.03.26:</b> A memory corruption issue was addressed with improved input validation by <a href="https://www.leiphone.com/news/202003/gENc7OITqoxKchYo.html" target="_blank">Qihoo 360 Alpha Lab</a> !
-<br>
 
+<br>
+	
+<table class="table table-striped table-bordered table-vcenter">
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td colspan="1" rowspan="10" class="ai-notebooks-table-points ai-orange-link">
+			<br>
+			<div align="center">
+				<img class="ai-header-badge-img" src="https://github.com/Charmve/BLE-Security-Attack-Defence/assets/29084184/dca27e6b-4625-4efd-9c24-eaaaff157318">
+				</a>&nbsp;
+				<p>Figure 1: BLE messages exchange diagram<br> 🔥Among the <a href="https://github.com/topics/deep-learning" target="_blank">top 10</a> BLE repos on GitHub</p>
+			</div>
+        </td>
+    </tr>
+	<tr>
+		<td><b>Fuzzing</b></td>
+	</tr>
+	<tr>
+		<td><a href="https://www.usenix.org/system/files/sec20-ruge.pdf">Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://git.ist.tugraz.at/apferscher/ble-fuzzing">Stateful Black-Box Fuzzing of BLE Devices Using Automata Learning</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://asset-group.github.io/papers/BrakTooth.pdf">BRAKTOOTH: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://arxiv.org/pdf/2208.00110.pdf">L2Fuzz: Discovering Bluetooth L2CAP Vulnerabilities Using Stateful Fuzz Testing</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://asset-group.github.io/papers/AutoFuzz4G5G.pdf">Towards Automated Fuzzing of 4G/5G Protocol Implementations Over the Air.</a></td>
+	</tr>
+	<tr>
+		<td>more ...</td>
+	</tr>
+	</tbody>
+</table>
+	
 ## BLE Vulnerability TOP5
 - <a href="./01_BlueBorne" target="_blank">BlueBorne</a>
 - <a href="./02_BLEEDINGBIT" target="_blank">BleedingBit</a>
